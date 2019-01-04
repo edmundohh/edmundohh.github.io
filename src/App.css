@@ -12,9 +12,9 @@ header
 .home-title
 {
   font-family: monospace;
-  font-size: 75px;
+  font-size: 650%;
   color: #23F6D6;
-  margin-bottom: 30px;
+  margin-bottom: 30%;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -71,8 +71,8 @@ header
   display: flex;
   /*padding: 5px 20px;*/
   font-family: monospace;
-  font-size: 20px;
-  margin: 30px ;
+  font-size: 150%;
+  margin: 20px ;
   border: 4px solid white;
   padding: 20px 40px;
   overflow: hidden;
@@ -160,7 +160,7 @@ body
   text-decoration: none;
   /*padding: 5px 20px;*/
   font-family: monospace;
-  font-size: 20px;
+  font-size: 150%;
   transition: 0.4s all ease;
 }
 
@@ -333,7 +333,7 @@ body
 .projects h1
 {
   font-family: monospace;
-  font-size: 35px;
+  font-size: 300%;
   color: #23F6D6;
   font-weight: bold;
 }
@@ -344,13 +344,13 @@ body
   color: white;
   display: flex;
   text-align: justify;
-  font-size: 20px;
+  font-size: 170%;
 }
 
 .skills li 
 {
   color: silver;
-  font-size: 33;
+  font-size: 111%;
   text-decoration: none;
   border: 1px solid silver;
   padding: 8px 18px;
@@ -384,7 +384,7 @@ body
 
 .projects .source 
 {
-  padding-top: 50%;
+  padding-top: 40%;
  
   margin-left: 30%;
   margin-right: 30%;
@@ -394,7 +394,7 @@ body
 
 .projects .source .gitHubLink
 {
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   text-align: center;
   
 }
@@ -417,7 +417,7 @@ body
 {
   color: white;
   font-family: monospace;
-  font-size: 14px;
+  font-size: 100%;
   display: flex;
   text-align: center;
   float: left;
@@ -434,7 +434,7 @@ body
 
 .about h1
 {
-  font-size: 55px;
+  font-size: 400%;
   font-family: monospace;
   font-weight: bold;
   color: #23F6D6;
@@ -445,7 +445,7 @@ body
 {
   padding-top: 2%;
   color: white;
-  font-size: 23px;
+  font-size: 160%;
   font-family: monospace;
   display: flex;
   text-align: justify;
@@ -465,7 +465,7 @@ body
 .about .email
 {
   padding-top: 50%;
-  padding-bottom: 5px;
+  padding-bottom: 0.3%;
   margin-right: 38%;
   margin-left: 38%;
 
