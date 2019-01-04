@@ -55,6 +55,7 @@ header
 {
     margin: 0;
     list-style-type: none;
+    max-width:90%;
     display: flex;
     position: absolute;
     top: 50%;
