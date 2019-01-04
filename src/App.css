@@ -12,9 +12,9 @@ header
 .home-title
 {
   font-family: monospace;
-  font-size: 650%;
-  color: white;
-  margin-bottom: 30%;
+  font-size: 550%;
+  color: #23F6D6;
+  padding-bottom: 20%;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -26,7 +26,7 @@ header
 
 .home-media
 {
-  margin: 0;
+  margin-top: 15%;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -51,17 +51,21 @@ header
   color: #23F6D6;
 }
 
-.home-vertical
+.home-vertical 
 {
     margin: 0;
     list-style-type: none;
-    max-width:90%;
     display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) 
+}
+
+.home-vertical li
+{
+
 
 }
 
