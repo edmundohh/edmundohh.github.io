@@ -14,12 +14,11 @@ class HomePage extends Component {
 	render() {
 		
 		return(
-  
   <header>
    
   	<div className="home-background">
   	<div className='fade-in'>
-  	<div className="wrapper">
+  	
      <div className="home-title">
             Welcome.
       </div>  
@@ -39,7 +38,7 @@ class HomePage extends Component {
          </ul>     
  	</div> 
  	</div>
- 	</div>
+ 	
  </header>
   
 		)

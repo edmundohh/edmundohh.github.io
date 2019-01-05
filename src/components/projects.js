@@ -8,8 +8,6 @@ class Projects extends Component {
 			<body>
 	
 	
-
-	
 		<div className="general-backgrund">
 					<ul className="general-main-nav">
 						<li><Link to="/"> HOME </Link></li>
