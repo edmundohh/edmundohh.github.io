@@ -14,7 +14,7 @@ header
   font-family: monospace;
   font-size: 550%;
   color: #23F6D6;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -26,7 +26,7 @@ header
 
 .home-media
 {
-  margin-top: 15%;
+  margin-top: 13%;
   list-style-type: none;
   display: flex;
   position: absolute;
@@ -63,11 +63,6 @@ header
     transform: translate(-50%, -50%) 
 }
 
-.home-vertical li
-{
-
-
-}
 
 .home-main-nav li a
 {
@@ -76,10 +71,11 @@ header
   display: flex;
   /*padding: 5px 20px;*/
   font-family: monospace;
-  font-size: 150%;
+  font-size: 200%;
   margin: 20px ;
   border: 4px solid white;
-  padding: 20px 40px;
+  border-radius: 9px;
+  padding: 25px 35px;
   overflow: hidden;
   transition: 0.5s all ease;
 }
@@ -96,7 +92,7 @@ header
 
 body
 {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))no-repeat center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -114,7 +110,7 @@ body
   position: relative;
   overflow-y: auto;  
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
 .fade-in {
@@ -144,7 +140,7 @@ body
 .general-main-nav li
 {
   display: inline-block;
-  margin-top: 3%;
+  margin-top: 5%;
   padding: 10px 20px;
   justify-content: center;
   margin-left: 2%;
@@ -155,7 +151,8 @@ body
 {
   font-weight: bold;
   border: 3px solid white;
-  padding: 18px 35px;
+  border-radius: 9px;
+  padding: 21px 35px;
 
 }
 
@@ -165,7 +162,7 @@ body
   text-decoration: none;
   /*padding: 5px 20px;*/
   font-family: monospace;
-  font-size: 150%;
+  font-size: 170%;
   transition: 0.4s all ease;
 }
 
