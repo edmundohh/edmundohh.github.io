@@ -18,7 +18,9 @@ class HomePage extends Component {
    
   	<div className="home-background">
   	<div className='fade-in'>
-  	
+  	<div className="home-name">
+  		Edmund Oh
+  	</div>
      <div className="home-title">
             Welcome.
       </div>  
