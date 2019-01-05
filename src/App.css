@@ -4,22 +4,6 @@
   padding: 0;
 }
 
-.home-name
-{
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  font-size: 140%;
-  color: #23F6D6;
-  /*padding-bottom: 5%;*/
-  list-style-type: none;
-  display: flex;
-  height: 2%;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%) 
-}
 
 .home-title
 {
@@ -148,7 +132,6 @@ body
   position: relative;
   overflow-y: auto;  
   width: 100%;
-  
 }
 
 .general-main-nav li
@@ -461,6 +444,8 @@ body
 {
   padding-top: 2%;
   color: white;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 160%;
   font-family: monospace;
   display: flex;
