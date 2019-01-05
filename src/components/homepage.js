@@ -18,10 +18,12 @@ class HomePage extends Component {
    
   	<div className="home-background">
   	<div className='fade-in'>
-  
-     <div className="home-title">
+     
+     
+     <p className="home-title">
             Welcome.
-      </div>  
+     </p>
+     
       <ul className="home-main-nav">
         <div className="home-vertical">
             <li><Link to="/photos" > PHOTOS</Link></li>
