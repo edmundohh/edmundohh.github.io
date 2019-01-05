@@ -8,7 +8,7 @@
 .home-title
 {
   font-family: monospace;
-  font-size: 550%;
+  font-size: calc(430% + 2vw);
   color: #23F6D6;
   padding-bottom: 5%;
   list-style-type: none;
@@ -21,11 +21,11 @@
   transform: translate(-50%, -50%) 
 }
 
-
 .home-media
 {
   margin-top: 13%;
   list-style-type: none;
+  size: 13vw;
   display: flex;
   position: absolute;
   height: 6%;
@@ -96,7 +96,8 @@ body
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  overflow-y: auto;  
+  overflow-y: auto; 
+  overflow-x: hidden; 
   width: 100%;
   height: 100vh;
 }
@@ -108,12 +109,19 @@ body
   background-size: cover;
   position: relative;
   overflow-y: hidden;  
+  justify-content: center;
   width: 100%;
   height: 100vh;
+  min-width: 10%
 }
+
+
 
 .fade-in {
   animation: fadeIn 4s;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
 }
 
 @keyframes fadeIn {
@@ -385,7 +393,7 @@ body
 
 .projects .source 
 {
-  padding-top: 40%;
+  padding-top: 40vh;
  
   margin-left: 30%;
   margin-right: 30%;
@@ -468,19 +476,17 @@ body
 
 .about .email
 {
-  padding-top: 70%;
-  margin-bottom: 1%;
-  margin-right: 38%;
-  margin-left: 38%;       
-  display: inline-block;
-  align-items: center;
-  
+  padding-top: 60vh;
+  padding-bottom: 0.1%;
+  margin: 0 auto;
+  justify-content: center;
+  width: 50%; 
+  display: flex;
 }
 
 .about .email .emailIcon
 {
   float: left;
-
 }
 
 .about .email .emailIcon i
@@ -490,12 +496,10 @@ body
 
 .about .email p
 {
-  padding-left: 2%;
+  margin-left: 2%;
   font-weight: bold;
   font-size: 20;
   text-align: center;
-
-
 }
 
 

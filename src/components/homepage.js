@@ -14,6 +14,7 @@ class HomePage extends Component {
 	render() {
 		
 		return(
+
   <header>
    
   	<div className="home-background">
@@ -23,6 +24,7 @@ class HomePage extends Component {
      <p className="home-title">
             Welcome.
      </p>
+     
      
       <ul className="home-main-nav">
         <div className="home-vertical">
