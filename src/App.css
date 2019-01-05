@@ -93,7 +93,7 @@
 body
 {
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), no-repeat center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   position: relative;
   overflow-y: auto; 
