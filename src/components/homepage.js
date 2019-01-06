@@ -20,10 +20,12 @@ class HomePage extends Component {
   	<div className="home-background">
   	<div className='fade-in'>
      
+     <div className="container">
+     	<span className="text1">Oh, hi Mark</span>
+     	<span className="text2">Ha ha ha, what a story Mark!</span>
+     </div>
      
-     <p className="home-title">
-            Welcome.
-     </p>
+     
      
      
       <ul className="home-main-nav">
