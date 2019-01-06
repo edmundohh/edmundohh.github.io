@@ -7,7 +7,6 @@ class Projects extends Component {
 			<header>
 			<body>
 	
-	
 		<div className="general-backgrund">
 					<ul className="general-main-nav">
 						<li><Link to="/"> HOME </Link></li>
@@ -17,6 +16,20 @@ class Projects extends Component {
 				    </ul>
 		<div className='fade-in'>
 		    <ul className="projects">
+		    	<li><div className="project1">
+			    	<img src="https://www.dropbox.com/s/eh9u73xjzytzk54/oooo.plus_131.png?raw=1"></img>
+			    	<h1>
+						IncognitoElf
+					</h1>
+					<ul className="skills">
+						<li> MongoDB </li>
+						<li> Mongoose </li>
+						<li> Node.js </li>
+					</ul>
+					<p> 
+						Designed the backend of a Secret Santa application using MongoDB.
+					</p>
+				</div></li>
 		    	<li><div className="project1">
 			    	<img src="https://www.dropbox.com/s/ssooopvb8jh3n2m/Sublet.png?raw=1"></img>
 			    	<h1>
@@ -28,7 +41,7 @@ class Projects extends Component {
 						<li> Oracle SQLDeveloper </li>
 					</ul>
 					<p> 
-						A UBC Sublet system that allows users to sign up/log in, create posts, and make requests to posts in order to sublet an available room. Application database created using Oracle on the UBC undergrad server.
+						A UBC Sublet system allowing users to sign up/log in, create posts, and make requests to posts in order to sublet an available room. Application database created using Oracle on the UBC undergrad server.
 					</p>
 				</div></li>
 			    <li><div className="project2">
@@ -42,7 +55,7 @@ class Projects extends Component {
 						<li> Adobe Photoshop </li>
 					</ul>
 					<p> 
-						Tower defense game that allows users to construct towers on the game map in order to prevent enemy boxes from reaching their destination portal. All animations and 2D sprites utilized in this game were designed on Adobe Photoshop.
+						Tower defense game allowing users to construct towers on the game map to prevent enemy boxes from reaching their destination portal. All animations and 2D sprites utilized in this game were designed on Adobe Photoshop.
 					</p>
 				</div></li>
 				<div className="source">

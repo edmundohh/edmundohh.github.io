@@ -26,7 +26,7 @@ class About extends Component {
 						Hey! Welcome to my portfolio website. <br/>
 						I'm a 3rd year Integrated Sciences student integrating Computer Science and Geological Science at the University of British Columbia.<br/><br/>
 
-						This website is made up of three main components: personal photography, projects and a short section about me. (If you don't want to read about me hopefully you can navigate to another page and find other cool stuff!)<br/><br/>
+						
 
 						I will be adding more things to this section in the near future. Stay tuned!
 					</p>

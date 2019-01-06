@@ -59,7 +59,7 @@
 
 @keyframes text {
   0%{
-    color: black;
+    color: white;
     margin-bottom: -100vh;
   }
   30%{
@@ -373,6 +373,11 @@ body
   }
 }
 
+.photography
+{
+  padding-top: 10%;
+}
+
 
 /* projects page */
 .projects 
@@ -421,12 +426,6 @@ body
 }
 
 
-
-.projects .skills li:hover
-{
-  background: silver;
-  color: black;
-}
 
 .projects .project1 img
 {
@@ -528,8 +527,8 @@ body
 
 .about .email
 {
-  padding-top: 20vh;
-  padding-bottom: 0.1%;
+  padding-top: 38vh;
+  bottom: 10%;
   margin: 0 auto;
   justify-content: center;
   width: 50%; 

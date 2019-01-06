@@ -7,7 +7,7 @@ class Photos extends Component {
 
 	//remove the loading spinner after set time if on load event does not fire
 	componentDidMount() {
-    setTimeout(() => {document.getElementById("overlay").style.visibility = "hidden"}, 1200)
+    setTimeout(() => {document.getElementById("overlay").style.visibility = "hidden"}, 1300)
 	}
 
 	componentWillUnmount() {
@@ -37,7 +37,7 @@ class Photos extends Component {
 						<li><Link to="/projects"> PROJECTS </Link></li>
 						<li><Link to="/about"> ABOUT </Link></li>
 				    </ul>
-<div className='fade-in'>
+				<div className='fade-in'>
 				    <div className="row"> 
 					  <div className="column">
 					    <div className="box">
@@ -101,12 +101,11 @@ class Photos extends Component {
 								    </div>
 						    </Link>
 					    </div> 
-					  	
-					    <div className="box">
-						    <Link to="/album/rainier">
-							    <img src="https://www.dropbox.com/s/aac2m2gdlh37evc/DSC_0613.jpg?raw=1"></img>
+					  	<div className="box">
+						    <Link to="/album/newyork">
+							    <img src="https://www.dropbox.com/s/rvjmbycf2jn3t81/DSC_2919.jpg?raw=1"></img>
 								    <div className="detail">
-								    	<div className="text">Mount Rainier National Park</div>
+								    	<div className="text">New York</div>
 								    </div>
 						    </Link>
 					    </div>
@@ -118,14 +117,15 @@ class Photos extends Component {
 								    </div>
 						    </Link>
 					    </div> 
-					     <div className="box">
-						    <Link to="/album/newyork">
-							    <img src="https://www.dropbox.com/s/rvjmbycf2jn3t81/DSC_2919.jpg?raw=1"></img>
+					    <div className="box">
+						    <Link to="/album/rainier">
+							    <img src="https://www.dropbox.com/s/aac2m2gdlh37evc/DSC_0613.jpg?raw=1"></img>
 								    <div className="detail">
-								    	<div className="text">New York</div>
+								    	<div className="text">Mount Rainier National Park</div>
 								    </div>
 						    </Link>
 					    </div>
+					     
 
 					   
 					   
@@ -140,10 +140,10 @@ class Photos extends Component {
 						    </Link>
 					    </div>
 					    <div className="box">
-						    <Link to="/album/dc">
-							    <img src="https://www.dropbox.com/s/vmtmc5519bpc0v0/DSC_3799.jpg?raw=1"></img>
+						    <Link to="/album/niagara">
+							    <img src="https://www.dropbox.com/s/tumnvbt4jvclmor/DSC_4284.jpg?raw=1"></img>
 								    <div className="detail">
-								    	<div className="text">Washington DC</div>
+								    	<div className="text">Niagara Falls</div>
 								    </div>
 						    </Link>
 					    </div>
@@ -164,13 +164,14 @@ class Photos extends Component {
 						    </Link>
 					    </div> 
 					    <div className="box">
-						    <Link to="/album/niagara">
-							    <img src="https://www.dropbox.com/s/tumnvbt4jvclmor/DSC_4284.jpg?raw=1"></img>
+						    <Link to="/album/dc">
+							    <img src="https://www.dropbox.com/s/vmtmc5519bpc0v0/DSC_3799.jpg?raw=1"></img>
 								    <div className="detail">
-								    	<div className="text">Niagara Falls</div>
+								    	<div className="text">Washington DC</div>
 								    </div>
 						    </Link>
 					    </div>
+					    
 					    
 
 					   
