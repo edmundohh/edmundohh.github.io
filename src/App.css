@@ -393,7 +393,7 @@ body
 
 .projects .source 
 {
-  padding-top: 40vh;
+  padding-top: 20vh;
  
   margin-left: 30%;
   margin-right: 30%;
@@ -403,7 +403,7 @@ body
 
 .projects .source .gitHubLink
 {
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   text-align: center;
   
 }
@@ -476,7 +476,7 @@ body
 
 .about .email
 {
-  padding-top: 60vh;
+  padding-top: 20vh;
   padding-bottom: 0.1%;
   margin: 0 auto;
   justify-content: center;
