@@ -27,7 +27,7 @@ class Projects extends Component {
 						<li> Node.js </li>
 					</ul>
 					<p> 
-						Designed the backend of a Secret Santa application using MongoDB.
+						A Secret Santa app for users to create and join groups to organize a gift exchange. Designed the back-end database using MongoDB.
 					</p>
 				</div></li>
 		    	<li><div className="project1">
@@ -41,7 +41,7 @@ class Projects extends Component {
 						<li> Oracle SQLDeveloper </li>
 					</ul>
 					<p> 
-						A UBC Sublet system allowing users to sign up/log in, create posts, and make requests to posts in order to sublet an available room. Application database created using Oracle on the UBC undergrad server.
+						A UBC Sublet system allowing users to sign up/log in, create posts, and make requests to posts in order to sublet an available room on campus. 
 					</p>
 				</div></li>
 			    <li><div className="project2">
@@ -55,7 +55,7 @@ class Projects extends Component {
 						<li> Adobe Photoshop </li>
 					</ul>
 					<p> 
-						Tower defense game allowing users to construct towers on the game map to prevent enemy boxes from reaching their destination portal. All animations and 2D sprites utilized in this game were designed on Adobe Photoshop.
+						A tower defense game, with the goal of defending your territory from box enemies by constructing Box Blaster Towers.
 					</p>
 				</div></li>
 				<div className="source">
