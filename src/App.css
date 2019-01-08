@@ -24,7 +24,7 @@
 .text1
 {
   color: #23F6D6;
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: calc(490% + 1vw);
   font-weight: 700;
   letter-spacing: 8px;
@@ -37,7 +37,7 @@
 {
   color: white;
   font-weight: bold; 
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: calc(190% + 1vw);
 }
 
