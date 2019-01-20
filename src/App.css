@@ -140,7 +140,7 @@ body
 
 .home-background
 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://www.dropbox.com/s/xm5trhosnmf4i18/DSC_0194.jpg?raw=1) no-repeat center center fixed;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://www.dropbox.com/s/xm5trhosnmf4i18/DSC_0194.jpg?raw=1) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
