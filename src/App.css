@@ -36,7 +36,6 @@
 .text2
 {
   color: white;
-  font-weight: bold; 
   font-family: "Courier New", Courier, monospace;
   font-size: calc(190% + 1vw);
 }
@@ -106,12 +105,13 @@
   text-decoration: none;
   display: flex;
   /*padding: 5px 20px;*/
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 145%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 155%;
+  font-weight: bold;
   margin: 20px ;
   border: 4px solid white;
-  border-radius: 9px;
-  padding: 25px 50px;
+  border-radius: 10px;
+  padding: 25px 45px;
   overflow: hidden;
   transition: 0.5s all ease;
 }
@@ -204,8 +204,8 @@ body
   color: white;
   text-decoration: none;
   /*padding: 5px 20px;*/
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 170%;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 180%;
   transition: 0.4s all ease;
 }
 
@@ -263,8 +263,8 @@ body
 .text 
 {
   color: white;
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 27px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -370,7 +370,7 @@ body
   margin-right: 10%;
   margin-left: 10%;
   position: absolute;
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .projects li 
@@ -381,7 +381,7 @@ body
 
 .projects h1
 {
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 300%;
   color: #23F6D6;
   font-weight: bold;
@@ -393,13 +393,14 @@ body
   color: white;
   display: flex;
   text-align: justify;
-  font-size: 170%;
+  font-size: 180%;
 }
 
 .skills li 
 {
   color: silver;
   font-size: 111%;
+  font-weight: bold;
   text-decoration: none;
   border: 1px solid silver;
   padding: 8px 18px;
@@ -479,7 +480,7 @@ body
 .about h1
 {
   font-size: 400%;
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
   color: #23F6D6;
   padding-bottom: 2%;
@@ -491,8 +492,8 @@ body
   color: white;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 160%;
-  font-family: "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  font-size: 180%;
+  font-family: "Courier New", Courier, monospace;
   display: flex;
   text-align: justify;
   padding-bottom: 10%;
