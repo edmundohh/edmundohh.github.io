@@ -52,7 +52,7 @@ class Photos extends Component {
 						    <Link to="/album/sanfrancisco">
 							    <img src="https://www.dropbox.com/s/wyxb5osnb10l3ye/DSC_7763.jpg?raw=1"></img>
 								    <div className="detail">
-								    	<div className="text">San Francisco/Pebble Beach</div>
+								    	<div className="text">Pebble Beach</div>
 								    </div>
 						    </Link>
 					    </div>
