@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-
+/*HOMEPAGE*/
 .home-title
 {
   text-align: center;
@@ -17,7 +17,6 @@
 }
 
 .home-title span{
-  
   display: block;
 }
 
@@ -87,7 +86,6 @@
 
 .home-vertical 
 {
-    
     list-style-type: none;
     display: flex;
     position: absolute;
@@ -98,17 +96,15 @@
     transform: translate(-50%, -50%) 
 }
 
-
 .home-main-nav li a
 {
   color: white;
   text-decoration: none;
   display: flex;
-  /*padding: 5px 20px;*/
   font-family: "Courier New", Courier, monospace;
   font-size: 155%;
   font-weight: bold;
-  margin: 20px ;
+  margin: 20px;
   border: 4px solid white;
   border-radius: 10px;
   padding: 25px 45px;
@@ -116,26 +112,10 @@
   transition: 0.5s all ease;
 }
 
-
 .home-main-nav li a:hover
 {
   background: white;
   color: #23F6D6;
-}
-
-
-
-
-body
-{
-  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), no-repeat center;
-  background-repeat: repeat-y;
-  background-size: cover;
-  position: relative;
-  overflow-y: auto; 
-  overflow-x: hidden; 
-  width: 100%;
-  height: 100vh;
 }
 
 .home-background
@@ -150,8 +130,6 @@ body
   height: 100vh;
   min-width: 10%
 }
-
-
 
 .fade-in {
   animation: fadeIn 4s;
@@ -169,9 +147,29 @@ body
   }
 }
 
+
+
+
+
+
+
+
+
+/*GENERAL BACKGROUND*/
+body
+{
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), no-repeat center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: relative;
+  overflow-y: auto; 
+  overflow-x: hidden; 
+  width: 100%;
+  height: 100vh;
+}
+
 .general-background
 {
-  /*background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/Hawaii/DSC_0633.jpg) no-repeat center;*/
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -183,7 +181,7 @@ body
 .general-main-nav li
 {
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 75px;
   padding: 10px 20px;
   justify-content: center;
   margin-left: 2%;
@@ -196,14 +194,12 @@ body
   border: 3px solid white;
   border-radius: 9px;
   padding: 21px 35px;
-
 }
 
 .general-main-nav li a
 {
   color: white;
   text-decoration: none;
-  /*padding: 5px 20px;*/
   font-family: "Courier New", Courier, monospace;
   font-size: 180%;
   transition: 0.4s all ease;
@@ -214,6 +210,15 @@ body
   font-weight: bold;
 }
 
+
+
+
+
+
+
+
+
+/*PHOTO PAGE*/
 .row img
 {
   max-width: 100%;
@@ -228,7 +233,6 @@ body
   padding-top: 8%;
 }
 
-/* Create four equal columns that sits next to each other */
 .column 
 {
   flex: 25%;
@@ -238,78 +242,19 @@ body
   margin-right: auto;
 }
 
-.box
-{
-  position: relative; 
-  padding-top: 20px;
-  
-}
-
-.box img
-{
-  opacity: 0.3;
-}
-
-.box:hover img
-{
-  opacity: 1;
-}
-
-.box:hover .detail
-{
-  opacity: 0;
-}
-
-.text 
-{
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 27px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.detail
-{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .3s ease;
-  
-}
-
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
 /*loading spinner*/
 .spinner{
     width: 80px;
     height: 80px;
-    
     border: 2px solid #686868;
     border-top:3px solid white;
     border-radius: 100%;
-    
     position: absolute;
     top:0;
     bottom:0;
     left:0;
     right: 0;
     margin: auto;
-    
     animation: spin 1s infinite linear;
 }
 
@@ -362,8 +307,67 @@ body
   padding-top: 10%;
 }
 
+.box
+{
+  position: relative; 
+  padding-top: 20px;
+}
 
-/* projects page */
+.box img
+{
+  opacity: 0.3;
+}
+
+.box:hover img
+{
+  opacity: 1;
+}
+
+.box:hover .detail
+{
+  opacity: 0;
+}
+
+.text 
+{
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 27px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.detail
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+/*PROJECTS PAGE*/
 .projects 
 { 
   padding-top: 5%;
@@ -410,8 +414,6 @@ body
   display: inline-block;
 }
 
-
-
 .projects .project1 img
 {
   height: 160px;
@@ -429,24 +431,20 @@ body
 
 .projects .source 
 {
-  padding-top: 10vh;
- 
+  padding-top: 10vh; 
   margin-left: 30%;
   margin-right: 30%;
   display: inline-block;
-
 }
 
 .projects .source .gitHubLink
 {
   padding-bottom: 2%;
   text-align: center;
-  
 }
 
 .projects .source .gitHubLink a
-{
-  
+{  
   color: white;
   overflow: hidden;
   transition: 0.5s all ease;  
@@ -468,13 +466,22 @@ body
   margin-bottom: 1%;
 }
 
-/* about page */
+
+
+
+
+
+
+
+
+
+
+/*ABOUT PAGE*/
 .about li
 {
   margin-top: 4%;
   padding: 4%;
   display: inline-block;
-
 }
 
 .about h1
@@ -499,15 +506,12 @@ body
   padding-bottom: 10%;
 }
 
-
-
-
 .about .profile img
 {
   height: 170px;
-    width: 170px;
-    float: left;
-    padding-right: 2%;
+  width: 170px;
+  float: left;
+  padding-right: 2%;
 }
 
 .about .email

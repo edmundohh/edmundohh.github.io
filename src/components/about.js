@@ -17,7 +17,7 @@ class About extends Component {
 		<div className='fade-in'>				    	
 		    <ul className="about">
 		    	<li><div className="profile">
-			    	<img src="https://www.dropbox.com/s/fgjy4luuo5myvyx/portrait.jpg?raw=1"></img>
+			    	<img src="https://www.dropbox.com/s/qzdx4nbre2lhcq8/imageedit_5_7905681192.gif?raw=1"></img>
 			    	<h1>
 						Edmund Oh
 					</h1>
