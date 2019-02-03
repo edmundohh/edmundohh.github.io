@@ -10,10 +10,6 @@ class Photos extends Component {
     setTimeout(() => {document.getElementById("overlay").style.visibility = "hidden"}, 1300)
 	}
 
-	componentWillUnmount() {
-		document.getElementById("overlay").style.visibility = "visible";
-	}
-
 	render() {
 		//remove the loading spinner on load event
 		window.addEventListener('load', function(){
@@ -170,18 +166,8 @@ class Photos extends Component {
 								    	<div className="text">Washington DC</div>
 								    </div>
 						    </Link>
-					    </div>
-					    
-					    
-
-					   
-					   
-					   
+					    </div>				   
 					  </div>  
-					  
-					
-
-				
 				</div>
 				    </div>
 				    </div>

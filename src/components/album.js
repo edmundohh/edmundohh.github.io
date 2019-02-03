@@ -212,9 +212,7 @@ class Album extends React.Component {
     	setTimeout(() => {document.getElementById("album-overlay").style.visibility = "hidden"}, 1250)
 	}
 	
-	componentWillUnmount() {
-		document.getElementById("album-overlay").style.visibility = "visible";
-	}
+
   	render() {
 
   	switch(this.props.match.params.id) {
