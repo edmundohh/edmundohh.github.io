@@ -1,0 +1,127 @@
+.homepage
+{
+  height: 100vh;
+}
+
+.profile
+{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/profilebackground.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-photo
+{
+  margin-top: 90px;
+}
+
+.profile-photo img
+{
+  max-height: 190px;
+  max-width:  190px;
+}
+
+.profile-title h1
+{
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  color:rgb(255, 255, 255);
+  font-size: 37px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#cursor {
+  border-left: .45em solid rgb(202, 202, 202);
+  animation: blink 0.9s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.main-nav
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.main-nav ul
+{
+  padding: 0;
+}
+
+.nav-menu 
+{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-nav-menu li a
+{
+  color: white;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 95px;
+  overflow: hidden;
+  transition: 0.5s all ease;
+}
+
+.home-nav-menu li a:hover
+{
+  color: rgb(85, 85, 85);
+}
+
+.nav-media
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.nav-media li a
+{
+  margin: 25px;
+  color: white;  
+}
+
+.nav-media li i:hover
+{
+  color: rgb(85, 85, 85);
+  transition: 0.5s all ease;
+}
+
+@media only screen and (max-width: 750px)
+{
+  .home-nav-menu li a
+  {
+    margin: 30px;
+  }
+}
+
+@media only screen and (min-height: 800px)
+{
+  .nav-media
+  {
+    margin-top: 300px;
+  }
+}

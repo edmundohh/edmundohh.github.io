@@ -1,141 +1,19 @@
-*
+.main-container
 {
-  margin: 0;
-  padding: 0;
-}
-
-/*HOMEPAGE*/
-.home-title
-{
-  text-align: center;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%,-50%);
-  width: 100%;
-  height: 2%;
-}
-
-.home-title span{
-  display: block;
-}
-
-.text1
-{
-  color: #23F6D6;
-  font-family: "Courier New", Courier, monospace;
-  font-size: calc(490% + 1vw);
-  font-weight: 700;
-  letter-spacing: 8px;
-  margin-bottom: 36px;
-  position: relative;
-  animation: text 3s 1;
-}
-
-.text2
-{
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: calc(190% + 1vw);
-}
-
-@keyframes text {
-  0%{
-    color: white;
-    margin-bottom: -100vh;
-  }
-  30%{
-    letter-spacing: 25px;
-    margin-bottom: -100vh;
-  }
-  85%{
-
-    letter-spacing: 8px;
-    margin-bottom: -100vh;
-  }
-}
-
-.home-media
-{
-  margin-top: 13%;
-  list-style-type: none;
-  size: 13vw;
+  /* margin: 0 80px; */
+  /* padding: 0; */
   display: flex;
-  position: absolute;
-  height: 6%;
-  top: 61%;
-  left: 50%;
-  margin-right: -50%;
-  position: absolute;
-  transform: translate(-50%, -50%)
-} 
-
-.home-media li a
-{
-  margin: 3px ;
-  color: white;
-  padding: 20px 20px;
-  overflow: hidden;
-  transition: 0.5s all ease;  
+  flex-direction: column;
 }
 
-.home-media li i:hover
-{
-  color: #23F6D6;
-}
 
-.home-vertical 
-{
-    list-style-type: none;
-    display: flex;
-    position: absolute;
-    top: 50%;
-    height: 12%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
-.home-main-nav li a
-{
-  color: white;
-  text-decoration: none;
-  display: flex;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 155%;
-  font-weight: bold;
-  margin: 20px;
-  border: 4px solid white;
-  border-radius: 10px;
-  padding: 25px 45px;
-  overflow: hidden;
-  transition: 0.5s all ease;
-}
-
-.home-main-nav li a:hover
-{
-  background: white;
-  color: #23F6D6;
-}
-
-.home-background
-{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://www.dropbox.com/s/xm5trhosnmf4i18/DSC_0194.jpg?raw=1) no-repeat center center fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow-y: hidden;  
-  justify-content: center;
-  width: 100%;
-  height: 100vh;
-  min-width: 10%
-}
 
 .fade-in {
-  animation: fadeIn 4s;
-  height: 100vh;
-  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 5s;
+  /* height: 100%;
+  width: 100%; */
   justify-content: center;
 }
 
@@ -159,59 +37,19 @@
 /*GENERAL BACKGROUND*/
 body
 {
-  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), no-repeat center;
-  background-repeat: repeat-y;
+  background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
+  /* background-repeat: repeat-y;
   background-size: cover;
   position: relative;
   overflow-y: auto; 
   overflow-x: hidden; 
   width: 100%;
-  height: 100vh;
-}
-
-.general-background
-{
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow-y: auto;  
-  width: 100%;
-  height: 100%;
-}
-
-.general-main-nav li
-{
-  display: inline-block;
-  margin-top: 75px;
-  padding: 10px 20px;
-  justify-content: center;
-  margin-left: 2%;
-  align-items: center;
-}
-
-.general-main-nav li.active a
-{
-  font-weight: bold;
-  border: 3px solid white;
-  border-radius: 9px;
-  padding: 21px 35px;
-}
-
-.general-main-nav li a
-{
-  color: white;
-  text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 180%;
-  transition: 0.4s all ease;
-}
-
-.general-main-nav li a:hover
-{
-  font-weight: bold;
+  height: 100vh; */
 }
 
 
+
+/* 
 
 
 
@@ -220,31 +58,8 @@ body
 
 
 /*PHOTO PAGE*/
-.row img
-{
-  max-width: 100%;
-  height: auto;
-}
-
-.row 
-{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20% 9%;
-  padding-top: 8%;
-}
-
-.column 
-{
-  flex: 25%;
-  max-width: 30%;
-  padding: 100 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*loading spinner*/
-.spinner{
+/* /* .spinner{
     width: 80px;
     height: 80px;
     border: 2px solid #686868;
@@ -257,109 +72,9 @@ body
     right: 0;
     margin: auto;
     animation: spin 1s infinite linear;
-}
-
-@keyframes spin {
-    from{
-        transform: rotate(0deg);
-    }to{
-        transform: rotate(360deg);
-    }
-}
-
-#overlay {
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,0.4);
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9999;
-}
-
-#album-overlay {
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,0.3);
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9999;
-}
+} */
 
 
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
- 
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-.photography
-{
-  padding-top: 10%;
-}
-
-.box
-{
-  position: relative; 
-  padding-top: 20px;
-}
-
-.box img
-{
-  opacity: 0.3;
-}
-
-.box:hover img
-{
-  opacity: 1;
-}
-
-.box:hover .detail
-{
-  opacity: 0;
-}
-
-.text 
-{
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 27px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.detail
-{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .3s ease;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
 
 
 
@@ -369,7 +84,7 @@ body
 
 
 /*PROJECTS PAGE*/
-.projects 
+/* .projects 
 { 
   padding-top: 5%;
   margin-right: 10%;
@@ -465,84 +180,4 @@ body
   text-align: center;
   float: left;
   margin-bottom: 1%;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*ABOUT PAGE*/
-.about li
-{
-  margin-top: 4%;
-  padding: 4%;
-  display: inline-block;
-}
-
-.about h1
-{
-  font-size: 400%;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
-  color: #23F6D6;
-  padding-bottom: 2%;
-}
-
-.about p
-{
-  padding-top: 1%;
-  color: white;
-  margin-left: 10%;
-  margin-right: 10%;
-  font-size: 180%;
-  font-family: "Courier New", Courier, monospace;
-  display: flex;
-  text-align: justify;
-  padding-bottom: 10%;
-}
-
-.about .profile img
-{
-  height: 170px;
-  width: 170px;
-  float: left;
-  padding-right: 2%;
-}
-
-.about .email
-{
-  padding-top: 38vh;
-  bottom: 10%;
-  margin: 0 auto;
-  justify-content: center;
-  width: 50%; 
-  display: flex;
-}
-
-.about .email .emailIcon
-{
-  float: left;
-}
-
-.about .email .emailIcon i
-{
-  color: white  
-}
-
-.about .email p
-{
-  margin-left: 2%;
-  font-weight: bold;
-  font-size: 20;
-  text-align: center;
-}
-
-
-
-
+} */ 

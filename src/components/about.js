@@ -1,77 +1,36 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import '../css/About.css';
 
 class About extends Component {
 	render() {
 		return(
-			<header>
-			<body>
+			<div className="about-section">
+				<div className="about-header">
+					<h1>hello!</h1>
+				</div>			    	
+		    <div className="description">
 	
-		<div className="general-backgrund">
-					<ul className="general-main-nav">
-						<li><Link to="/"> HOME </Link></li>
-						<li><Link to="/photos"> PHOTOS </Link></li>
-						<li><Link to="/projects"> PROJECTS </Link></li>
-						<li className="active"><Link to="/about"> ABOUT </Link></li>
-				    </ul>
-		<div className='fade-in'>				    	
-		    <ul className="about">
-		    	<li><div className="profile">
-			    	<img src="https://www.dropbox.com/s/fgjy4luuo5myvyx/portrait.jpg?raw=1"></img>
-			    	<h1>
-						Edmund Oh
-					</h1>
-					
 					<p> 
-						Hey! Welcome to my portfolio website. <br/>
-						I'm a 3rd year Integrated Sciences student integrating Computer Science and Geological Science at the University of British Columbia.<br/><br/>
+						I'm a 3rd year Integrated Sciences student at the University of British Columbia, integrating Computer Science and Geological Science.<br/><br/>
 
-						
+						Here are some facts about me:<br/><br/>
 
-						I will be adding more things to this section in the near future. Stay tuned!
+						<span class="cat-highlight">Interests:</span> Hackathons, Photography, Sports, Music<br/>
+						<span class="cat-highlight">Favourite Food:</span> Fried Chicken<br/>
+						<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Norah Jones<br/>
+						<span class="cat-highlight">Favourite Teams:</span> San Francisco Giants, Montreal Canadiens, Manchester United<br/>
+						<span class="cat-highlight">Super Smash Bros Main:</span> Mega Man
+
 					</p>
-
-
-				</div></li>
-				<div className="email">
-			    	
-			    	
-					<div className="emailIcon">
-						<i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
-					</div>
-					<p> 
-						1edmundoh@gmail.com
-					</p>
-					
-				</div>
-			  
-				
-			</ul>
+	
+			</div>
 			
-
-
 			
-
 			
 		</div>
-		</div>
 
-
-
-
-            
-			
-	   
-
-	    
-		
-
-
-
-</body>
-</header>
 		)
 	}
 }
-
 export default About;

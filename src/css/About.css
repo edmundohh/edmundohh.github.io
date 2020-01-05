@@ -1,0 +1,76 @@
+.about-section
+{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-header
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about1.JPG') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-header h1
+{
+    color: rgb(252, 181, 49);
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.description
+{
+  color: white;
+  width: 70%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.description p
+{
+  font-weight: bold;
+  margin-top: 60px;
+  font-size: 21px;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+.cat-highlight
+{
+  color:rgb(252, 181, 49);
+}
+
+@media only screen and (min-width: 1650px)
+{
+  .about-header
+  {
+    padding-top: 175px;
+    padding-bottom: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px)
+{
+  .about-header
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .description
+  {
+    color: white;
+    width: 90%;
+    font-family: "Courier New", Courier, monospace;
+  }
+}

@@ -1,0 +1,62 @@
+.photos-sections
+{
+  height: 100vh;
+}
+
+.photos-header h1
+{
+    color: white;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.photos img
+{
+  max-width: 100%;
+  height: auto;
+}
+
+.photos
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 150px;
+}
+
+.column 
+{
+  flex: 25%;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ 
+@media screen and (max-width: 900px) {
+  .photos {
+    margin: 20px 20px;
+  }
+}
+
+.box
+{
+  position: relative; 
+  margin-top: 20px;
+}
+
+.box:hover img
+{
+  opacity: 0.3;
+  transition: 0.5s all ease;
+}
+
+.box:hover .detail
+{
+  opacity: 0;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
