@@ -1,6 +1,7 @@
-.photos-sections
+.photos-section
 {
   height: 100vh;
+  margin-bottom: 200px;
 }
 
 .photos-header h1
@@ -8,7 +9,7 @@
     color: white;
     text-align: center;
     font-family: "Courier New", Courier, monospace;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -42,7 +43,7 @@
 .box
 {
   position: relative; 
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .box:hover img
@@ -59,4 +60,14 @@
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+.photos-link
+{
+  margin-top: 100px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }

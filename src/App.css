@@ -1,19 +1,14 @@
 .main-container
 {
-  /* margin: 0 80px; */
-  /* padding: 0; */
   display: flex;
   flex-direction: column;
 }
 
-
-
-.fade-in {
+.fade-in 
+{
   display: flex;
   flex-direction: column;
   animation: fadeIn 5s;
-  /* height: 100%;
-  width: 100%; */
   justify-content: center;
 }
 
@@ -26,158 +21,8 @@
   }
 }
 
-
-
-
-
-
-
-
-
 /*GENERAL BACKGROUND*/
 body
 {
   background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
-  /* background-repeat: repeat-y;
-  background-size: cover;
-  position: relative;
-  overflow-y: auto; 
-  overflow-x: hidden; 
-  width: 100%;
-  height: 100vh; */
 }
-
-
-
-/* 
-
-
-
-
-
-
-
-/*PHOTO PAGE*/
-/*loading spinner*/
-/* /* .spinner{
-    width: 80px;
-    height: 80px;
-    border: 2px solid #686868;
-    border-top:3px solid white;
-    border-radius: 100%;
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right: 0;
-    margin: auto;
-    animation: spin 1s infinite linear;
-} */
-
-
-
-
-
-
-
-
-
-
-/*PROJECTS PAGE*/
-/* .projects 
-{ 
-  padding-top: 5%;
-  margin-right: 10%;
-  margin-left: 10%;
-  position: absolute;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.projects li 
-{
-  padding: 4%;
-  display: inline-block;
-}
-
-.projects h1
-{
-  font-family: "Courier New", Courier, monospace;
-  font-size: 300%;
-  color: #23F6D6;
-  font-weight: bold;
-}
-
-.projects p
-{
-  padding-top: 2%;
-  color: white;
-  display: flex;
-  text-align: justify;
-  font-size: 180%;
-}
-
-.skills li 
-{
-  color: silver;
-  font-size: 111%;
-  font-weight: bold;
-  text-decoration: none;
-  border: 1px solid silver;
-  padding: 8px 18px;
-  border-radius: 7px;
-  margin-right: 1%;
-  margin-top: 1%;
-  display: inline-block;
-}
-
-.projects .project1 img
-{
-  height: 160px;
-  width: 160px;
-  float: left;
-  padding-right: 2%;
-}
-
-.projects .project2 img
-{
-  height: 175px;
-  width: 175px;
-  float: left;
-}
-
-.projects .source 
-{
-  padding-top: 10vh; 
-  margin-left: 30%;
-  margin-right: 30%;
-  display: inline-block;
-}
-
-.projects .source .gitHubLink
-{
-  padding-bottom: 2%;
-  text-align: center;
-}
-
-.projects .source .gitHubLink a
-{  
-  color: white;
-  overflow: hidden;
-  transition: 0.5s all ease;  
-}
-
-.projects .source .gitHubLink a:hover
-{
-  color: #23F6D6;
-}
-
-.projects .source p
-{
-  color: white;
-  font-family: monospace;
-  font-size: 100%;
-  display: flex;
-  text-align: center;
-  float: left;
-  margin-bottom: 1%;
-} */ 

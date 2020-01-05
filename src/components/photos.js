@@ -20,40 +20,43 @@ class Photos extends Component {
 				<div className="photos">
 					<div className="column">
 						<div className="box">
-							<Link to="/album/oregon">
+							{/* <Link to="/album/oregon"> */}
 								<img src={ image1 }></img>
-							</Link>
+							{/* </Link> */}
 						</div>
 						<div className="box">
-							<Link to="/album/rainier">
+							{/* <Link to="/album/rainier"> */}
 								<img src={ image2 }></img>
-							</Link>
+							{/* </Link> */}
 						</div> 
 					</div>
 					<div className="column">
 						<div className="box">
-							<Link to="/album/oregon">
+							{/* <Link to="/album/oregon"> */}
 								<img src={ image3 }></img>
-							</Link> 
+							{/* </Link>  */}
 						</div>
 						<div className="box">
-							<Link to="/album/oregon">
+							{/* <Link to="/album/oregon"> */}
 								<img src={ image4 }></img>
-							</Link> 
+							{/* </Link>  */}
 						</div>
 					</div>
 					<div className="column">
 						<div className="box">
-							<Link to="/album/oregon">
+							{/* <Link to="/album/oregon"> */}
 								<img src={ image5 }></img>	
-							</Link>
+							{/* </Link> */}
 						</div>
 						<div className="box">
-							<Link to="/album/goldenears">
+							{/* <Link to="/album/goldenears"> */}
 								<img src={ image6 }></img>	
-							</Link>
+							{/* </Link> */}
 						</div>		   
 					</div>  	  		  
+				</div>
+				<div className="photos-link">
+					photo section coming soon...
 				</div>
 			</div>
 		);

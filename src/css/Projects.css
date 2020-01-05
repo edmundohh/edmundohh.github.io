@@ -1,0 +1,145 @@
+.projects-header h1
+{
+    color: white;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.projects-section ul
+{
+    padding: 0;
+}
+
+.projects-list
+{
+    margin-top: 30px;
+}
+
+.project
+{
+    margin-top: 4px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: rgb(39, 39, 39);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.project-photo img
+{
+    max-height: 165px;
+    max-width:  165px;
+}
+
+.project-photo2 img
+{
+    height: 165px;
+    width:  165px;
+}
+
+.projects-list h2
+{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 33px;
+    color: rgb(252, 142, 16);
+    font-weight: bold;
+    margin: 8px;
+}
+
+.proj-highlight
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline;
+    font-style: oblique;
+    font-family: serif;
+}
+
+.skills
+{
+    display: flex;
+    font-family: "Courier New", Courier, monospace;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.skills li
+{
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid rgb(170, 170, 170);
+    border-radius: 9px;
+    padding: 5px 16px;
+    margin: 5px;
+    display: flex;
+}
+
+.project-description
+{
+    margin-top: 25px;
+    color: white;
+    width: 40%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.project-description p
+{
+    font-weight: bold;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 6px;
+}
+
+.github-link
+{
+    margin-top: 10px;
+}
+
+.github-link a
+{
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.github-link a:hover
+{
+    color: rgb(85, 85, 85);
+}
+
+.demo-link
+{
+    margin-top: 15px;
+}
+
+.demo-link a
+{
+    color: white;
+    transition: 0.5s all ease;
+}
+
+.demo-link a:hover
+{
+    color: rgb(85, 85, 85);
+}
+
+@media only screen and (max-width: 750px)
+{
+    .project-description
+    {
+        width: 70%;
+    }
+
+    .proj-highlight
+    {
+        font-size: 13px;
+    }
+}

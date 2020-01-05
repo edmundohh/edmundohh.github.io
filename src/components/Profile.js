@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import ProfilePhoto from '../images/profilephoto.png'
-import Typer from './Typer'
-import { Link } from 'react-router-dom';
+import ProfilePhoto from '../images/profilephoto.png';
+import Typer from './Typer';
 import '../css/Profile.css';
 
 const typedMessages = [
