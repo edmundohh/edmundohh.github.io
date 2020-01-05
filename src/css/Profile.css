@@ -33,7 +33,7 @@
   width: 100%;
   font-family: "Courier New", Courier, monospace;
   color:rgb(255, 255, 255);
-  font-size: 37px;
+  font-size: 45px;
   font-weight: bold;
   text-overflow: ellipsis;
 }
@@ -78,9 +78,9 @@ body {
   color: white;
   text-decoration: none;
   font-family: "Courier New", Courier, monospace;
-  font-size: 21px;
+  font-size: 25px;
   font-weight: bold;
-  margin: 95px;
+  margin: 90px;
   overflow: hidden;
   transition: 0.5s all ease;
 }
@@ -110,15 +110,25 @@ body {
   transition: 0.5s all ease;
 }
 
-@media only screen and (max-width: 750px)
+@media only screen and (max-width: 900px)
 {
   .home-nav-menu li a
   {
     margin: 30px;
   }
+
+  .profile-title h1
+  {
+    font-size: 55px;
+  }
+
+  .profile
+  {
+    height: 50vh;
+  }
 }
 
-@media only screen and (min-height: 800px)
+@media only screen and (min-height: 815px)
 {
   .nav-media
   {
