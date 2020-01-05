@@ -121,17 +121,17 @@ body {
   {
     font-size: 55px;
   }
-
-  .profile
-  {
-    height: 50vh;
-  }
 }
 
 @media only screen and (min-height: 815px)
 {
   .nav-media
   {
-    margin-top: 300px;
+    margin-top: 30vh;
+  }
+
+  .profile
+  {
+    height: 50vh;
   }
 }
