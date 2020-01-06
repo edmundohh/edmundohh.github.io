@@ -48,14 +48,16 @@
     font-size: 33px;
     color: rgb(252, 142, 16);
     font-weight: bold;
+    text-align: center;
     margin: 8px;
 }
 
-.proj-highlight
+.projects-list h3
 {
     color: rgb(255, 255, 255);
+    margin-top: 0;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: underline;
     font-style: oblique;
     font-family: serif;
@@ -139,11 +141,6 @@
     }
 
     .project-description p
-    {
-        font-size: 5vw;
-    }
-
-    .proj-highlight
     {
         font-size: 5vw;
     }

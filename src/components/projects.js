@@ -18,7 +18,8 @@ class Projects extends Component {
 							<img src={ ProjectPhoto4 }></img>
 						</div>
 						<div className="profile-title">
-							<h2>Helping Hand <span class="proj-highlight">1st Place at UBC Local Hack Day 2019</span></h2>
+							<h2>Helping Hand</h2>
+							<h3>1st Place at UBC Local Hack Day 2019</h3>
 						</div>
 						<ul className="skills">
 							<li> PostgreSQL </li>
