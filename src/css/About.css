@@ -49,27 +49,30 @@
   color:rgb(252, 142, 16);
 }
 
-@media only screen and (min-width: 1650px)
+/* @media only screen and (min-width: 1650px)
 {
   .about-header
   {
     padding-top: 175px;
     padding-bottom: 175px;
   }
-}
+}*/
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 700px)
 {
   .about-header
   {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
   .description
   {
-    color: white;
     width: 90%;
-    font-family: "Courier New", Courier, monospace;
+  }
+
+  .description p
+  {
+    font-size: 4vw;
   }
 }

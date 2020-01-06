@@ -131,15 +131,42 @@
     color: rgb(85, 85, 85);
 }
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 700px)
 {
     .project-description
     {
         width: 90%;
     }
 
+    .project-description p
+    {
+        font-size: 5vw;
+    }
+
     .proj-highlight
     {
-        font-size: 27px;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    .skills
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills li
+    {
+        color: rgb(170, 170, 170);
+        font-size: 4vw;
+        font-weight: bold;
+        text-decoration: none;
+        border: 1px solid rgb(170, 170, 170);
+        border-radius: 9px;
+        padding: 2px 3px;
+        margin: 3px;
     }
 }

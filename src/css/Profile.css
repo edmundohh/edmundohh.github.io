@@ -22,8 +22,8 @@
 
 .profile-photo img
 {
-  max-height: 190px;
-  max-width:  190px;
+  max-width: 180px;
+  max-height: 180px;
 }
 
 .profile-title h1
@@ -80,7 +80,7 @@ body {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
   font-weight: bold;
-  margin: 90px;
+  margin: 5vw;
   overflow: hidden;
   transition: 0.5s all ease;
 }
@@ -96,6 +96,7 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 75px;
+  list-style-type: none;
 }
 
 .nav-media li a
@@ -110,33 +111,36 @@ body {
   transition: 0.5s all ease;
 }
 
-@media only screen and (max-width: 900px)
+@media only screen and (max-width: 700px)
 {
-  .home-nav-menu li a
+  .profile
   {
-    margin: 30px;
+    height: 50vh;
+  }
+
+  .profile-photo img
+  {
+    max-width: 35vw;
   }
 
   .profile-title h1
   {
-    font-size: 55px;
+    font-size: 7vw;
   }
-}
 
-@media only screen and (min-height: 815px)
-{
+  .home-nav-menu li a
+  {
+    margin: 3vw;
+    font-size: 5vw;
+  }
+
+  .nav-media li a
+  {
+    margin: 4vw;
+  }
+
   .nav-media
   {
-    margin-top: 30vh;
-  }
-
-  .profile
-  {
-    height: 45vh;
-  }
-
-  .profile-photo
-  {
-    margin-top: 10vh;
+    margin-top: 20vh;
   }
 }
