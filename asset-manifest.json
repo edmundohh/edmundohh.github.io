@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.580bb205.chunk.css",
-  "main.js": "/static/js/main.b9758138.chunk.js",
-  "main.js.map": "/static/js/main.b9758138.chunk.js.map",
+  "main.css": "/static/css/main.60bf60da.chunk.css",
+  "main.js": "/static/js/main.5b553693.chunk.js",
+  "main.js.map": "/static/js/main.5b553693.chunk.js.map",
   "static/css/1.742e0032.chunk.css": "/static/css/1.742e0032.chunk.css",
   "static/js/1.42934055.chunk.js": "/static/js/1.42934055.chunk.js",
   "static/js/1.42934055.chunk.js.map": "/static/js/1.42934055.chunk.js.map",
@@ -16,12 +16,12 @@
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
   "static/media/ubcsublet.png": "/static/media/ubcsublet.9790306d.png",
   "static/media/helpinghand.png": "/static/media/helpinghand.a5864ff4.png",
-  "static/media/Profile.css": "/static/media/profilebackground.e6dd8d77.jpg",
+  "static/media/Profile.css": "/static/media/profilebackground.12926420.jpg",
   "static/media/About.css": "/static/media/about1.5ef1fcd2.JPG",
   "static/media/cannon.jpg": "/static/media/cannon.6f1ed167.jpg",
+  "static/css/main.60bf60da.chunk.css.map": "/static/css/main.60bf60da.chunk.css.map",
   "static/css/1.742e0032.chunk.css.map": "/static/css/1.742e0032.chunk.css.map",
-  "static/css/main.580bb205.chunk.css.map": "/static/css/main.580bb205.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.939650735e5e26996cf52c83d13c64db.js": "/precache-manifest.939650735e5e26996cf52c83d13c64db.js",
+  "precache-manifest.ed9775167f5e0ef56f877f2f6b53e5ff.js": "/precache-manifest.ed9775167f5e0ef56f877f2f6b53e5ff.js",
   "service-worker.js": "/service-worker.js"
 }
