@@ -5,16 +5,18 @@ import About from './components/About';
 import Photos from './components/Photos';
 import Projects from './components/Projects';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
       <div className="main-container">
         <div className="fade-in">
-          <Profile/>
+          <Profile />
           <ScrollableAnchor id={'about'}><About /></ScrollableAnchor>
           <ScrollableAnchor id={'projects'}><Projects /></ScrollableAnchor>
           <ScrollableAnchor id={'photos'}><Photos /></ScrollableAnchor>
+          <Footer />
         </div>
       </div>
       );
