@@ -10,11 +10,13 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							I'm a 3rd year Integrated Sciences student at the University of British Columbia, integrating Computer Science and Geological Science.<br/><br/>
+							I'm currently a 3rd year Integrated Sciences student at the University of British Columbia, studying Computer Science, Mathematics and Geological Science.<br/><br/>
 
-							Here are some facts about me:<br/><br/>
+							Previously, I have worked as a Software Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
-							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Sports, Music<br/>
+							Here are some fun facts about me:<br/><br/>
+
+							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Music<br/>
 							<span class="cat-highlight">Favourite Food:</span> Fried Chicken<br/>
 							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar<br/>
 							<span class="cat-highlight">Favourite Sports Teams:</span> San Francisco Giants, Montreal Canadiens, Manchester United<br/>

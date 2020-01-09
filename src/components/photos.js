@@ -56,7 +56,7 @@ class Photos extends Component {
 					</div>  	  		  
 				</div>
 				<div className="photos-link">
-					photo section coming soon...
+					photo section in progress...
 				</div>
 			</div>
 		);

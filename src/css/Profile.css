@@ -1,8 +1,3 @@
-.homepage
-{
-  height: 100vh;
-}
-
 .profile
 {
   display: flex;
@@ -16,7 +11,7 @@
 
 .profile-photo
 {
-  margin-top: 90px;
+  margin-top: 87px;
 }
 
 .profile-photo img
@@ -28,7 +23,7 @@
 .profile-title h1
 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%;
   font-family: "Courier New", Courier, monospace;
   color:rgb(255, 255, 255);
@@ -110,11 +105,19 @@ body {
   transition: 0.5s all ease;
 }
 
+@media only screen and (min-height: 600px)
+{
+  .homepage
+  {
+    height: 100vh;
+  }
+}
+
 @media only screen and (max-width: 400px)
 {
-  .profile
+  .profile-photo
   {
-    height: 50vh;
+    margin-top: 10vh;
   }
 
   .profile-photo img
@@ -126,6 +129,7 @@ body {
   {
     margin-top: 10px;
     font-size: 7vw;
+    margin-bottom: 8vh;
   }
 
   .home-nav-menu li a
@@ -141,6 +145,6 @@ body {
 
   .nav-media
   {
-    margin-top: 17vh;
+    margin-top: 23vh;
   }
 }
