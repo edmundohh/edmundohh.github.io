@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "976a4f4c3a4f6cdf1ae86dd769b4626b",
-    "url": "/static/media/rainier.976a4f4c.jpg"
+    "revision": "00b7383512afc321ee35dd6fd18241fa",
+    "url": "/static/media/seadoge.00b73835.jpg"
   },
   {
-    "revision": "10c01f62ad078d7a6ef8",
-    "url": "/static/css/main.ec609570.chunk.css"
+    "revision": "c3aed87f72599d5553cd",
+    "url": "/static/css/main.b5a22dc7.chunk.css"
   },
   {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
@@ -36,16 +36,16 @@ self.__precacheManifest = [
     "url": "/static/media/cannon.85ba3de1.jpg"
   },
   {
-    "revision": "10c01f62ad078d7a6ef8",
-    "url": "/static/js/main.10c01f62.chunk.js"
+    "revision": "976a4f4c3a4f6cdf1ae86dd769b4626b",
+    "url": "/static/media/rainier.976a4f4c.jpg"
   },
   {
     "revision": "51297499281fbe0697faf361de0ffdfc",
     "url": "/static/media/or_sunset.51297499.jpg"
   },
   {
-    "revision": "00b7383512afc321ee35dd6fd18241fa",
-    "url": "/static/media/seadoge.00b73835.jpg"
+    "revision": "c3aed87f72599d5553cd",
+    "url": "/static/js/main.c3aed87f.chunk.js"
   },
   {
     "revision": "e081acea687bc466743edb1f3d7bd568",
@@ -68,11 +68,23 @@ self.__precacheManifest = [
     "url": "/static/media/helpinghand.a5864ff4.png"
   },
   {
+    "revision": "49faf4a37ccb885f447612005c6ee757",
+    "url": "/static/media/EMLATIN6.49faf4a3.ttf"
+  },
+  {
+    "revision": "c673f1bd7106775b5ebee40d17c71750",
+    "url": "/static/media/CooperHewitt-Light.c673f1bd.otf"
+  },
+  {
+    "revision": "375f05aace97ea5be7690c422e629fa6",
+    "url": "/static/media/CooperHewitt-Book.375f05aa.otf"
+  },
+  {
     "revision": "4915c65bd2a2911bdb47",
     "url": "/static/css/1.bdd28cf0.chunk.css"
   },
   {
-    "revision": "a9550bde247506ae4838a33132739431",
+    "revision": "5faf519d207b90cd24e1b0ddb08e7f90",
     "url": "/index.html"
   }
 ];
