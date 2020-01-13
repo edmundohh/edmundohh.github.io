@@ -2,9 +2,10 @@
 {
     color: white;
     text-align: center;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Everson Mono";
+    font-style: italic;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .photos img
@@ -17,7 +18,7 @@
 {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px 150px;
+  margin: 0px 150px;
 }
 
 .column 
@@ -52,14 +53,13 @@
 }
 
 .column img {
-  margin-top: 8px;
   vertical-align: middle;
 }
 
 .photos-link
 {
-  margin-top: 75px;
-  font-family: "Courier New", Courier, monospace;
+  margin-top: 78px;
+  font-family: "Everson Mono";
   font-size: 15px;
   font-weight: bold;
   color: white;

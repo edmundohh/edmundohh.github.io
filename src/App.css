@@ -26,3 +26,22 @@ body
 {
   background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
 }
+
+/* FONTS */
+@font-face
+{
+  font-family: "Everson Mono";
+  src: url(./fonts/EMLATIN6.ttf);
+}
+
+@font-face
+{
+  font-family: "Cooper Hewitt";
+  src: url(./fonts/CooperHewitt-Light.otf);
+}
+
+@font-face
+{
+  font-family: "Cooper Hewitt Book";
+  src: url(./fonts/CooperHewitt-Book.otf);
+}

@@ -25,15 +25,11 @@
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Everson Mono";
   color:rgb(255, 255, 255);
   font-size: 45px;
-  font-weight: bold;
+  font-weight: medium;
   text-overflow: ellipsis;
-}
-
-body {
-  font-family: "Courier New", Courier, monospace;
 }
 
 #cursor {
@@ -71,9 +67,10 @@ body {
 {
   color: white;
   text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
+  font-family: "Everson Mono";
+  font-size: 24px;
   font-weight: bold;
+  font-style: italic;
   margin: 5vw;
   overflow: hidden;
   transition: 0.5s all ease;
@@ -128,7 +125,7 @@ body {
   .profile-title h1
   {
     margin-top: 10px;
-    font-size: 7vw;
+    font-size: 8vw;
     margin-bottom: 8vh;
   }
 

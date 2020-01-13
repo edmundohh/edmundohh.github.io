@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .about-header
@@ -11,8 +12,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   align-items: center;
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/about1.jpg') no-repeat;
   background-size: cover;
@@ -23,8 +24,9 @@
 {
   color: rgb(252, 142, 16);
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Everson Mono";
   font-size: 35px;
+  font-style: italic;
   font-weight: bold;
 }
 
@@ -32,14 +34,14 @@
 {
   color: white;
   width: 70%;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cooper Hewitt";
 }
 
 .description p
 {
-  font-weight: bold;
+  font-weight: medium;
   margin-top: 60px;
-  font-size: 21px;
+  font-size: 19px;
   text-align: justify;
   line-height: 1.4em;
 }
@@ -47,9 +49,9 @@
 .description a
 {
   color: white;
-  font-weight: bold;
+  font-weight: medium;
   font-style: italic;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Cooper Hewitt";
   transition: 0.5s all ease;
 }
 
@@ -62,15 +64,6 @@
 {
   color:rgb(252, 142, 16);
 }
-
-/* @media only screen and (min-width: 1650px)
-{
-  .about-header
-  {
-    padding-top: 175px;
-    padding-bottom: 175px;
-  }
-}*/
 
 @media only screen and (max-width: 700px)
 {
@@ -88,5 +81,14 @@
   .description p
   {
     font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width: 1400px)
+{
+  .about-header
+  {
+    background-size: contain;
+    background-repeat: repeat-x;
   }
 }

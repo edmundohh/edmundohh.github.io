@@ -20,7 +20,6 @@ class About extends Component {
 							<span class="cat-highlight">Favourite Food:</span> Fried Chicken<br/>
 							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar<br/>
 							<span class="cat-highlight">Favourite Sports Teams:</span> San Francisco Giants, Montreal Canadiens, Manchester United<br/>
-							<span class="cat-highlight">Super Smash Bros Main:</span> Mega Man
 					</p>
 				</div>
 			</div>
