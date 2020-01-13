@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/seadoge.00b73835.jpg"
   },
   {
-    "revision": "1c3b97ad975baf5a75a7",
-    "url": "/static/css/main.1116ddc8.chunk.css"
+    "revision": "b5726077685c3beaae62",
+    "url": "/static/css/main.d9bbd2da.chunk.css"
   },
   {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/or_sunset.51297499.jpg"
   },
   {
-    "revision": "1c3b97ad975baf5a75a7",
-    "url": "/static/js/main.1c3b97ad.chunk.js"
+    "revision": "b5726077685c3beaae62",
+    "url": "/static/js/main.b5726077.chunk.js"
   },
   {
     "revision": "e081acea687bc466743edb1f3d7bd568",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/css/1.bdd28cf0.chunk.css"
   },
   {
-    "revision": "1621abdc7b6dfeeb9fcb40ba460ae033",
+    "revision": "3c10afac640f9ebe8de94957fd7b36c0",
     "url": "/index.html"
   }
 ];
