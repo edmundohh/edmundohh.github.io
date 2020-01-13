@@ -59,6 +59,7 @@
     margin-top: 0;
     font-weight: bold;
     font-size: 17px;
+    text-align: center;
     text-decoration: underline;
     font-style: oblique;
     font-family: "Everson Mono";
@@ -138,7 +139,7 @@
 {
     .project-description
     {
-        width: 90%;
+        width: 80%;
     }
 
     .project-description p

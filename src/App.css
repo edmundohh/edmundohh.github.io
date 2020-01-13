@@ -45,3 +45,9 @@ body
   font-family: "Cooper Hewitt Book";
   src: url(./fonts/CooperHewitt-Book.otf);
 }
+
+@font-face
+{
+  font-family: "DejaVu Sans Mono";
+  src: url(./fonts/DejaVuSansMono.ttf);
+}
