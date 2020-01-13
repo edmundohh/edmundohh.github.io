@@ -27,7 +27,7 @@
   width: 100%;
   font-family: "DejaVu Sans Mono";
   color:rgba(255, 255, 255, 0.726);
-  font-size: 45px;
+  font-size: 40px;
   font-weight: medium;
   text-overflow: ellipsis;
 }
@@ -125,7 +125,7 @@
   .profile-title h1
   {
     margin-top: 10px;
-    font-size: 8vw;
+    font-size: 7vw;
     margin-bottom: 8vh;
   }
 
