@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/seadoge.00b73835.jpg"
   },
   {
-    "revision": "c3aed87f72599d5553cd",
-    "url": "/static/css/main.b5a22dc7.chunk.css"
+    "revision": "1c3b97ad975baf5a75a7",
+    "url": "/static/css/main.1116ddc8.chunk.css"
   },
   {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/or_sunset.51297499.jpg"
   },
   {
-    "revision": "c3aed87f72599d5553cd",
-    "url": "/static/js/main.c3aed87f.chunk.js"
+    "revision": "1c3b97ad975baf5a75a7",
+    "url": "/static/js/main.1c3b97ad.chunk.js"
   },
   {
     "revision": "e081acea687bc466743edb1f3d7bd568",
@@ -80,11 +80,15 @@ self.__precacheManifest = [
     "url": "/static/media/CooperHewitt-Book.375f05aa.otf"
   },
   {
+    "revision": "6a15e0a7c0367ba77a959ea27ebf11cf",
+    "url": "/static/media/DejaVuSansMono.6a15e0a7.ttf"
+  },
+  {
     "revision": "4915c65bd2a2911bdb47",
     "url": "/static/css/1.bdd28cf0.chunk.css"
   },
   {
-    "revision": "5faf519d207b90cd24e1b0ddb08e7f90",
+    "revision": "1621abdc7b6dfeeb9fcb40ba460ae033",
     "url": "/index.html"
   }
 ];
