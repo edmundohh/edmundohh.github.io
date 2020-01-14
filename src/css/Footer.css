@@ -15,9 +15,8 @@
 .email a
 {
   color: white;
-  font-family: "Everson Mono";
+  font-family: "Code New Roman Bold";
   font-size: 14px;
-  font-weight: bold;
 }
 
 .footer p
@@ -25,8 +24,7 @@
   margin-top: 15px;
   color: white;
   text-align: center;
-  font-family: "Everson Mono";
+  font-family: "Code New Roman";
   font-size: 12px;
-  font-weight: bold;
   font-style: italic;
 }

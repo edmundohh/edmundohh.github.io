@@ -24,10 +24,9 @@
 {
   color: rgb(252, 142, 16);
   text-align: center;
-  font-family: "Everson Mono";
-  font-size: 35px;
+  font-family: "Code New Roman";
+  font-size: 31px;
   font-style: italic;
-  font-weight: bold;
 }
 
 .description
@@ -39,7 +38,6 @@
 
 .description p
 {
-  font-weight: medium;
   margin-top: 60px;
   font-size: 19px;
   text-align: justify;

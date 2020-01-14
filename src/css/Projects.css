@@ -2,10 +2,8 @@
 {
     color: white;
     text-align: center;
-    font-family: "Cooper Hewitt";
-    font-size: 32px;
-    font-weight: bold;
-    font-style: italic;
+    font-family: "Code New Roman";
+    font-size: 31px;
 }
 
 .projects-section
@@ -45,10 +43,9 @@
 
 .projects-list h2
 {
-    font-family: "Everson Mono";
-    font-size: 33px;
+    font-family: "Code New Roman";
+    font-size: 28px;
     color: rgb(252, 142, 16);
-    font-weight: bold;
     text-align: center;
     margin: 8px;
 }
@@ -57,18 +54,16 @@
 {
     color: rgb(255, 255, 255);
     margin-top: 0;
-    font-weight: bold;
     font-size: 17px;
     text-align: center;
-    text-decoration: underline;
     font-style: oblique;
-    font-family: "Everson Mono";
+    font-family: "Code New Roman Bold";
 }
 
 .skills
 {
     display: flex;
-    font-family: "Everson Mono";
+    font-family: "Code New Roman";
     flex-direction: row;
     justify-content: center;
 }
@@ -77,35 +72,36 @@
 {
     color: rgb(170, 170, 170);
     font-size: 14px;
-    font-weight: bold;
     text-decoration: none;
-    border: 2px solid rgb(170, 170, 170);
+    border: 1px solid rgb(170, 170, 170);
     border-radius: 9px;
     padding: 5px 16px;
+    padding-bottom: 3px;
     margin: 5px;
     display: flex;
 }
 
 .project-description
 {
-    margin-top: 25px;
+    margin-top: 23px;
     color: white;
     width: 40%;
-    font-family: "Cooper Hewitt";
+    font-family: "Code New Roman";
+    align-items: center;
+    justify-content: center;
 }
 
 .project-description p
 {
-    font-weight: medium;
     font-size: 18px;
     text-align: justify;
-    line-height: 1.2em;
+    line-height: 1.3em;
     margin-bottom: 6px;
 }
 
 .github-link
 {
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .github-link a
@@ -161,11 +157,11 @@
     {
         color: rgb(170, 170, 170);
         font-size: 4vw;
-        font-weight: bold;
         text-decoration: none;
         border: 1px solid rgb(170, 170, 170);
         border-radius: 9px;
         padding: 2px 3px;
         margin: 3px;
+        padding-bottom: 0px;
     }
 }

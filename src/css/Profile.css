@@ -25,16 +25,16 @@
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "DejaVu Sans Mono";
-  color:rgba(255, 255, 255, 0.726);
-  font-size: 40px;
-  font-weight: medium;
+  font-family: "Code New Roman Bold";
+  color:rgba(255, 255, 255, 0.849);
+  font-size: 36px;
   text-overflow: ellipsis;
 }
 
 #cursor {
-  border-left: .45em solid rgb(202, 202, 202);
+  border-left: .45em solid rgba(255, 255, 255, 0.849);
   animation: blink 0.9s steps(1) infinite;
+  padding-top: 4px;
 }
 
 @keyframes blink {
@@ -67,10 +67,8 @@
 {
   color: white;
   text-decoration: none;
-  font-family: "Everson Mono";
-  font-size: 24px;
-  font-weight: bold;
-  font-style: italic;
+  font-family: "Code New Roman";
+  font-size: 21px;
   margin: 5vw;
   overflow: hidden;
   transition: 0.5s all ease;
@@ -132,7 +130,7 @@
   .home-nav-menu li a
   {
     margin: 5vw;
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
 
   .nav-media li a

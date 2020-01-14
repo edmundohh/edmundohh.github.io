@@ -30,24 +30,19 @@ body
 /* FONTS */
 @font-face
 {
-  font-family: "Everson Mono";
-  src: url(./fonts/EMLATIN6.ttf);
-}
-
-@font-face
-{
   font-family: "Cooper Hewitt";
   src: url(./fonts/CooperHewitt-Light.otf);
 }
 
+
 @font-face
 {
-  font-family: "Cooper Hewitt Book";
-  src: url(./fonts/CooperHewitt-Book.otf);
+  font-family: "Code New Roman";
+  src: url(./fonts/Code\ New\ Roman.otf);
 }
 
 @font-face
 {
-  font-family: "DejaVu Sans Mono";
-  src: url(./fonts/DejaVuSansMono.ttf);
+  font-family: "Code New Roman Bold";
+  src: url(./fonts/Code\ New\ Roman\ b.otf);
 }
