@@ -30,19 +30,18 @@ body
 /* FONTS */
 @font-face
 {
-  font-family: "Cooper Hewitt";
-  src: url(./fonts/CooperHewitt-Light.otf);
-}
-
-
-@font-face
-{
-  font-family: "Code New Roman";
-  src: url(./fonts/Code\ New\ Roman.otf);
+  font-family: "Avenir Book";
+  src: url(./fonts/AvenirLTStd-Book.otf);
 }
 
 @font-face
 {
-  font-family: "Code New Roman Bold";
-  src: url(./fonts/Code\ New\ Roman\ b.otf);
+  font-family: "Avenir Roman";
+  src: url(./fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face
+{
+  font-family: "Avenir Medium";
+  src: url(./fonts/AvenirLTStd-Medium.otf);
 }

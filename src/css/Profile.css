@@ -25,16 +25,16 @@
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "Code New Roman Bold";
-  color:rgba(255, 255, 255, 0.849);
+  font-family: "Avenir Medium";
+  color:white;
   font-size: 36px;
   text-overflow: ellipsis;
 }
 
 #cursor {
-  border-left: .45em solid rgba(255, 255, 255, 0.849);
+  border-left: .2em solid white;
   animation: blink 0.9s steps(1) infinite;
-  padding-top: 4px;
+  padding-top: 7px;
 }
 
 @keyframes blink {
@@ -67,7 +67,7 @@
 {
   color: white;
   text-decoration: none;
-  font-family: "Code New Roman";
+  font-family: "Avenir Medium";
   font-size: 21px;
   margin: 5vw;
   overflow: hidden;
@@ -140,6 +140,6 @@
 
   .nav-media
   {
-    margin-top: 23vh;
+    margin-top: 21vh;
   }
 }

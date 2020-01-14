@@ -1,8 +1,9 @@
 .photos-header h1
 {
     color: white;
+    padding-top: 10px;
     text-align: center;
-    font-family: "Code New Roman";
+    font-family: "Avenir Medium";
     font-size: 31px;
 }
 
@@ -26,16 +27,11 @@
   margin-left: auto;
   margin-right: auto;
 }
- 
-@media screen and (max-width: 900px) {
-  .photos {
-    margin: 10px 10px;
-  }
-}
 
 .box
 {
-  position: relative; 
+  position: relative;
+  padding-top: 0;
   margin-top: 10px;
 }
 
@@ -57,15 +53,31 @@
 .photos-link
 {
   margin-top: 78px;
-  font-family: "Code New Roman";
+  font-family: "Avenir Roman";
   font-size: 14px;
   color: white;
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .photos 
+  {
+    margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column 
+  {
+    flex: 100%;
+    max-width: 85%;
+  }
+}
+
 @media only screen and (min-height: 1000px)
 {
-  .photos {
+  .photos 
+  {
     margin: 10px 10px;
   }
 }

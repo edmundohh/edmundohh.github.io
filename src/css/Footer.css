@@ -15,8 +15,14 @@
 .email a
 {
   color: white;
-  font-family: "Code New Roman Bold";
+  font-family: "Avenir Medium";
   font-size: 14px;
+  transition: 0.5s all ease;
+}
+
+.email a:hover
+{
+  color: rgb(85, 85, 85);
 }
 
 .footer p
@@ -24,7 +30,7 @@
   margin-top: 15px;
   color: white;
   text-align: center;
-  font-family: "Code New Roman";
+  font-family: "Avenir Book";
   font-size: 12px;
   font-style: italic;
 }

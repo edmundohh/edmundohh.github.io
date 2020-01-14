@@ -9,7 +9,7 @@ class Footer extends Component {
                     <a href="mailto: 1edmundoh@gmail.com">1edmundoh@gmail.com</a>
                 </div>
 				<div className="footer">
-					<p>created with React.js</p>
+					<p>Built with React.js</p>
 				</div>
             </div>
 		);

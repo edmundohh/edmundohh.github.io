@@ -2,7 +2,7 @@
 {
     color: white;
     text-align: center;
-    font-family: "Code New Roman";
+    font-family: "Avenir Medium";
     font-size: 31px;
 }
 
@@ -43,7 +43,7 @@
 
 .projects-list h2
 {
-    font-family: "Code New Roman";
+    font-family: "Avenir Medium";
     font-size: 28px;
     color: rgb(252, 142, 16);
     text-align: center;
@@ -57,13 +57,13 @@
     font-size: 17px;
     text-align: center;
     font-style: oblique;
-    font-family: "Code New Roman Bold";
+    font-family: "Avenir Medium";
 }
 
 .skills
 {
     display: flex;
-    font-family: "Code New Roman";
+    font-family: "Avenir Book";
     flex-direction: row;
     justify-content: center;
 }
@@ -86,7 +86,7 @@
     margin-top: 23px;
     color: white;
     width: 40%;
-    font-family: "Code New Roman";
+    font-family: "Avenir Book";
     align-items: center;
     justify-content: center;
 }
@@ -160,8 +160,8 @@
         text-decoration: none;
         border: 1px solid rgb(170, 170, 170);
         border-radius: 9px;
-        padding: 2px 3px;
+        padding: 4px 3px;
         margin: 3px;
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
 }
