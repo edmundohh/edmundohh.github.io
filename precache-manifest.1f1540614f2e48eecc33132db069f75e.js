@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/seadoge.00b73835.jpg"
   },
   {
-    "revision": "b5726077685c3beaae62",
-    "url": "/static/css/main.d9bbd2da.chunk.css"
+    "revision": "69ecb3d86c17b1b54fd5",
+    "url": "/static/css/main.94a2f5c6.chunk.css"
   },
   {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/or_sunset.51297499.jpg"
   },
   {
-    "revision": "b5726077685c3beaae62",
-    "url": "/static/js/main.b5726077.chunk.js"
+    "revision": "69ecb3d86c17b1b54fd5",
+    "url": "/static/js/main.69ecb3d8.chunk.js"
   },
   {
     "revision": "e081acea687bc466743edb1f3d7bd568",
@@ -68,27 +68,23 @@ self.__precacheManifest = [
     "url": "/static/media/helpinghand.a5864ff4.png"
   },
   {
-    "revision": "49faf4a37ccb885f447612005c6ee757",
-    "url": "/static/media/EMLATIN6.49faf4a3.ttf"
-  },
-  {
     "revision": "c673f1bd7106775b5ebee40d17c71750",
     "url": "/static/media/CooperHewitt-Light.c673f1bd.otf"
   },
   {
-    "revision": "375f05aace97ea5be7690c422e629fa6",
-    "url": "/static/media/CooperHewitt-Book.375f05aa.otf"
+    "revision": "7b686ce45581c736b00593fddd544e94",
+    "url": "/static/media/Code New Roman.7b686ce4.otf"
   },
   {
-    "revision": "6a15e0a7c0367ba77a959ea27ebf11cf",
-    "url": "/static/media/DejaVuSansMono.6a15e0a7.ttf"
+    "revision": "53cf9f3345bd6d105661657c53486480",
+    "url": "/static/media/Code New Roman b.53cf9f33.otf"
   },
   {
     "revision": "4915c65bd2a2911bdb47",
     "url": "/static/css/1.bdd28cf0.chunk.css"
   },
   {
-    "revision": "3c10afac640f9ebe8de94957fd7b36c0",
+    "revision": "93aca2a6c70e8be39dcaf965bed4dbe7",
     "url": "/index.html"
   }
 ];
