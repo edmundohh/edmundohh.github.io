@@ -7,8 +7,8 @@
   "static/js/1.4915c65b.chunk.js.map": "/static/js/1.4915c65b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/App.css": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf",
-  "static/media/preview.jpg": "/static/media/preview.08348091.jpg",
+  "static/media/App.css": "/static/media/AvenirLTStd-Medium.4f995fa4.otf",
+  "static/media/preview.jpg": "/static/media/preview.c1012062.jpg",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/cannon.jpg": "/static/media/cannon.85ba3de1.jpg",
   "static/media/rainier.jpg": "/static/media/rainier.976a4f4c.jpg",
@@ -24,6 +24,6 @@
   "static/css/main.cf7ae930.chunk.css.map": "/static/css/main.cf7ae930.chunk.css.map",
   "static/css/1.bdd28cf0.chunk.css.map": "/static/css/1.bdd28cf0.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c138e0715f41bcbf3f9b983bb0e88532.js": "/precache-manifest.c138e0715f41bcbf3f9b983bb0e88532.js",
+  "precache-manifest.255038af9d5ef5cde7f01e0e8bac2005.js": "/precache-manifest.255038af9d5ef5cde7f01e0e8bac2005.js",
   "service-worker.js": "/service-worker.js"
 }
