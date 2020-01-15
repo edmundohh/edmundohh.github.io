@@ -6,7 +6,7 @@ class About extends Component {
 		return(
 			<div className="about-section">
 				<div className="about-header">
-					<h1>Hello!</h1>
+					<h1>hello!</h1>
 				</div>			    	
 				<div className="description">
 					<p> 

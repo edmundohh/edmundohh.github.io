@@ -15,7 +15,7 @@ class Photos extends Component {
 		return(
 			<div className="photos-section">
 				<div className="photos-header">
-					<h1>Photos</h1>
+					<h1>photos</h1>
 				</div>
 				<div className="photos">
 					<div className="column">

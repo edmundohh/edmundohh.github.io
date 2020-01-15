@@ -10,7 +10,7 @@ class Projects extends Component {
 		return(
 			<div className="projects-section">
 				<div className="projects-header">
-					<h1>Projects</h1>
+					<h1>projects</h1>
 				</div>
 		    <ul className="projects-list">
 			<li><div className="project">

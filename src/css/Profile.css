@@ -25,9 +25,9 @@
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "Avenir Medium";
+  font-family: "Avenir Roman";
   color:white;
-  font-size: 36px;
+  font-size: 37px;
   text-overflow: ellipsis;
 }
 
@@ -67,8 +67,8 @@
 {
   color: white;
   text-decoration: none;
-  font-family: "Avenir Medium";
-  font-size: 21px;
+  font-family: "Avenir Roman";
+  font-size: 19px;
   margin: 5vw;
   overflow: hidden;
   transition: 0.5s all ease;

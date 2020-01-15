@@ -2,8 +2,8 @@
 {
     color: white;
     text-align: center;
-    font-family: "Avenir Medium";
-    font-size: 31px;
+    font-family: "Avenir Book";
+    font-size: 30px;
 }
 
 .projects-section
@@ -53,7 +53,6 @@
 .projects-list h3
 {
     color: rgb(255, 255, 255);
-    margin-top: 0;
     font-size: 17px;
     text-align: center;
     font-style: oblique;
@@ -62,6 +61,7 @@
 
 .skills
 {
+    margin-top: 0px;
     display: flex;
     font-family: "Avenir Book";
     flex-direction: row;
