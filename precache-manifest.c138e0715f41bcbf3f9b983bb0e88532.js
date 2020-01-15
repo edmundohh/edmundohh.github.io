@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/seadoge.00b73835.jpg"
   },
   {
-    "revision": "4af5d17b2545c30d4d6c",
-    "url": "/static/css/main.c8ced00f.chunk.css"
+    "revision": "b9941d5ef644d4de5f8c",
+    "url": "/static/css/main.cf7ae930.chunk.css"
   },
   {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/static/media/or_sunset.51297499.jpg"
   },
   {
-    "revision": "4af5d17b2545c30d4d6c",
-    "url": "/static/js/main.4af5d17b.chunk.js"
+    "revision": "b9941d5ef644d4de5f8c",
+    "url": "/static/js/main.b9941d5e.chunk.js"
   },
   {
     "revision": "e081acea687bc466743edb1f3d7bd568",
@@ -68,23 +68,23 @@ self.__precacheManifest = [
     "url": "/static/media/helpinghand.a5864ff4.png"
   },
   {
-    "revision": "b1d7c6e085a31e9f5e4745c9aef6eb4b",
-    "url": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf"
+    "revision": "4f995fa49446998983e05df9994dc96c",
+    "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
   },
   {
     "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
     "url": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf"
   },
   {
-    "revision": "4f995fa49446998983e05df9994dc96c",
-    "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
+    "revision": "b1d7c6e085a31e9f5e4745c9aef6eb4b",
+    "url": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf"
   },
   {
     "revision": "4915c65bd2a2911bdb47",
     "url": "/static/css/1.bdd28cf0.chunk.css"
   },
   {
-    "revision": "1522af8053a77a1ce58f22a98ce56a85",
+    "revision": "1c893b83bdeb3b51956a4ffe16f64945",
     "url": "/index.html"
   }
 ];
