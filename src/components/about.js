@@ -10,7 +10,7 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							I'm currently a 3rd year Integrated Sciences student at the University of British Columbia, studying Computer Science, Mathematics, and Geological Science.<br/><br/>
+							I'm currently a 3rd year Computer Science undergraduate student at the University of British Columbia.<br/><br/>
 
 							Previously, I have worked as a Software Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
