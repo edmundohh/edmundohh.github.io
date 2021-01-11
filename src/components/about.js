@@ -15,7 +15,7 @@ class About extends Component {
 
 							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Music<br/>
 							<span class="cat-highlight">Favourite Movies:</span> Us, Train to Busan, The Silence of the Lambs<br/>
-							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Hyukoh, <span class="blackpink">BLACKPINK</span><br/>
+							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Hyukoh<span class="blackpink">, BLACKPINK</span><br/>
 					</p>
 				</div>
 			</div>
