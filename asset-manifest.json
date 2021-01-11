@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.6c9d85f8.chunk.css",
-  "main.js": "/static/js/main.64159daa.chunk.js",
-  "main.js.map": "/static/js/main.64159daa.chunk.js.map",
+  "main.css": "/static/css/main.cc17b787.chunk.css",
+  "main.js": "/static/js/main.236abc1d.chunk.js",
+  "main.js.map": "/static/js/main.236abc1d.chunk.js.map",
   "static/css/1.332e524f.chunk.css": "/static/css/1.332e524f.chunk.css",
   "static/js/1.464236a4.chunk.js": "/static/js/1.464236a4.chunk.js",
   "static/js/1.464236a4.chunk.js.map": "/static/js/1.464236a4.chunk.js.map",
@@ -20,11 +20,11 @@
   "static/media/ubcsublet.png": "/static/media/ubcsublet.9790306d.png",
   "static/media/helpinghand.png": "/static/media/helpinghand.a5864ff4.png",
   "static/media/teeparty.png": "/static/media/teeparty.6291b4c6.png",
-  "static/media/App.css": "/static/media/AvenirLTStd-Medium.4f995fa4.otf",
+  "static/media/App.css": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf",
   "static/media/About.css": "/static/media/about1.7e8bd043.jpg",
+  "static/css/main.cc17b787.chunk.css.map": "/static/css/main.cc17b787.chunk.css.map",
   "static/css/1.332e524f.chunk.css.map": "/static/css/1.332e524f.chunk.css.map",
-  "static/css/main.6c9d85f8.chunk.css.map": "/static/css/main.6c9d85f8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.a5053ebac188ceea70a6326e6c9bf84d.js": "/precache-manifest.a5053ebac188ceea70a6326e6c9bf84d.js",
+  "precache-manifest.e6afa47fc24a622d348bc34ae0bb3cb6.js": "/precache-manifest.e6afa47fc24a622d348bc34ae0bb3cb6.js",
   "service-worker.js": "/service-worker.js"
 }
