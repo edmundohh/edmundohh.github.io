@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "31ec6d412b31915ffbf9",
-    "url": "/static/css/main.2866e9fa.chunk.css"
+    "revision": "181872f40f4e6253f646",
+    "url": "/static/css/main.acfaa66e.chunk.css"
   },
   {
-    "revision": "31ec6d412b31915ffbf9",
-    "url": "/static/js/main.31ec6d41.chunk.js"
+    "revision": "181872f40f4e6253f646",
+    "url": "/static/js/main.181872f4.chunk.js"
   },
   {
-    "revision": "4915c65bd2a2911bdb47",
-    "url": "/static/css/1.bdd28cf0.chunk.css"
+    "revision": "464236a4529858a93abb",
+    "url": "/static/css/1.332e524f.chunk.css"
   },
   {
-    "revision": "4915c65bd2a2911bdb47",
-    "url": "/static/js/1.4915c65b.chunk.js"
+    "revision": "464236a4529858a93abb",
+    "url": "/static/js/1.464236a4.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/preview.c1012062.jpg"
   },
   {
-    "revision": "ade9d1a3ce36b9d6ad3f92d87e58c4a1",
-    "url": "/static/media/profilephoto.ade9d1a3.png"
+    "revision": "b502a0354016a6f596fd89b58eb24b24",
+    "url": "/static/media/profilephoto.b502a035.png"
   },
   {
     "revision": "41138aead51485dec3326c827e58f23b",
@@ -68,23 +68,27 @@ self.__precacheManifest = [
     "url": "/static/media/helpinghand.a5864ff4.png"
   },
   {
-    "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
-    "url": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf"
+    "revision": "6291b4c6a1afae71e275e30d990a106a",
+    "url": "/static/media/teeparty.6291b4c6.png"
   },
   {
-    "revision": "4f995fa49446998983e05df9994dc96c",
-    "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
+    "revision": "ecb0c2ae369ba2a89d9a1ec2a1b3187b",
+    "url": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf"
   },
   {
     "revision": "b1d7c6e085a31e9f5e4745c9aef6eb4b",
     "url": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf"
   },
   {
+    "revision": "4f995fa49446998983e05df9994dc96c",
+    "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
+  },
+  {
     "revision": "fdd4234bd19fef177c730075e5ddb893",
     "url": "/static/media/about1.fdd4234b.jpg"
   },
   {
-    "revision": "5dc4210cc5421bfd74cfe7c830503b0f",
+    "revision": "fdba39d5caae94de95f2e19d1a89d109",
     "url": "/index.html"
   }
 ];
