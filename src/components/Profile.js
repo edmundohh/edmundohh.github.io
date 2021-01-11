@@ -41,9 +41,9 @@ class Profile extends Component {
 			</ul>
 			<ul>
 			  <div className="nav-media">
-					<li><a href="https://www.instagram.com/edmund_oh/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
 					<li><a href="https://github.com/edmundohh"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
 					<li><a href="https://www.linkedin.com/in/edmundoh/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/edmund_oh/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
 			  </div>
 			</ul>
 		  </div>

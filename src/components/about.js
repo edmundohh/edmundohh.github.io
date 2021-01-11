@@ -10,15 +10,12 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							I'm currently a 3rd year Computer Science undergraduate student at the University of British Columbia.<br/><br/>
-
+							I'm currently an undergraduate Computer Science student at the University of British Columbia. 
 							Previously, I have worked as a Software Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
-							Here are some fun facts about me:<br/><br/>
-
 							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Music<br/>
-							<span class="cat-highlight">Favourite Food:</span> Fried Chicken<br/>
-							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar<br/>
+							<span class="cat-highlight">Favourite Movies:</span> Us, Train to Busan, The Silence of the Lambs<br/>
+							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Hyukoh, <span class="blackpink">BLACKPINK</span><br/>
 					</p>
 				</div>
 			</div>
