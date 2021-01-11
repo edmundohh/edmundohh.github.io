@@ -13,7 +13,7 @@ const projects = [
 		photo: TeePartyPhoto,
 		title: "TeeParty",
 		skills: ["React Native", "Node.js", "MongoDB"],
-		description: "A mobile app that enables a friendly competition between you and your friends by logging your scores at your favourite golf course. Follow other players to keep up with their score logs and view them on the leaderboard.",
+		description: "A mobile app that enables a friendly competition between you and your friends by allowing you to log your scores at your favourite golf course. Follow other players to keep up with their score logs and view them on the leaderboard.",
 		ghLink: "https://github.com/edmundohh/TeeParty",
 	},
 	{
