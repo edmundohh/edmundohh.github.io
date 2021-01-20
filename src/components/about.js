@@ -10,11 +10,13 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							I'm currently an undergraduate Computer Science student at the University of British Columbia. 
-							Previously, I have worked as a Software Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
+							Welcome to my website! My name is Edmund and I'm currently an undergraduate Computer Science student at the <a href="https://www.ubc.ca/">University of British Columbia</a>,
+							anticipating to graduate in May 2022.<br/><br/>
+							Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
-							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Music<br/>
-							<span class="cat-highlight">Favourite Movies:</span> Us, Train to Busan, The Silence of the Lambs<br/>
+							You can find the source code for my projects including this website on my <a href="https://github.com/edmundohh">github</a>. Also check out some of my photos below in the photos section.<br/><br/>
+
+							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Cooking<br/>
 							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Hyukoh,<span class="blackpink"> BLACKPINK</span><br/>
 					</p>
 				</div>
