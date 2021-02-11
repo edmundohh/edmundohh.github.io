@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "48f2847716c37e1445fc",
-    "url": "/static/css/main.24ef2ccd.chunk.css"
+    "revision": "3c4f0f4d22dca947040a",
+    "url": "/static/css/main.9c41c1d2.chunk.css"
   },
   {
-    "revision": "48f2847716c37e1445fc",
-    "url": "/static/js/main.48f28477.chunk.js"
+    "revision": "3c4f0f4d22dca947040a",
+    "url": "/static/js/main.3c4f0f4d.chunk.js"
   },
   {
     "revision": "1596421dac84c9c32672",
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
   },
   {
-    "revision": "d7982e4c4d683e1fe63fdefd5100f1e3",
-    "url": "/static/media/ChicagoFLF.d7982e4c.ttf"
-  },
-  {
     "revision": "0288f1e7bb41723f1e583496a7050130",
     "url": "/static/media/8-bit-pusab.0288f1e7.ttf"
+  },
+  {
+    "revision": "d7982e4c4d683e1fe63fdefd5100f1e3",
+    "url": "/static/media/ChicagoFLF.d7982e4c.ttf"
   },
   {
     "revision": "41138aead51485dec3326c827e58f23b",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/incognitoelf.31b770bd.png"
   },
   {
-    "revision": "7511876685a649ce4cd0ceb5c3d2da4e",
+    "revision": "60fb49e41d15b03434218c74af467ebc",
     "url": "/index.html"
   }
 ];

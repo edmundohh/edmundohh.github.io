@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.24ef2ccd.chunk.css",
-  "main.js": "/static/js/main.48f28477.chunk.js",
-  "main.js.map": "/static/js/main.48f28477.chunk.js.map",
+  "main.css": "/static/css/main.9c41c1d2.chunk.css",
+  "main.js": "/static/js/main.3c4f0f4d.chunk.js",
+  "main.js.map": "/static/js/main.3c4f0f4d.chunk.js.map",
   "static/css/1.7903bec2.chunk.css": "/static/css/1.7903bec2.chunk.css",
   "static/js/1.1596421d.chunk.js": "/static/js/1.1596421d.chunk.js",
   "static/js/1.1596421d.chunk.js.map": "/static/js/1.1596421d.chunk.js.map",
@@ -18,12 +18,12 @@
   "static/media/seadoge.jpg": "/static/media/seadoge.00b73835.jpg",
   "static/media/hawaii.jpg": "/static/media/hawaii.e081acea.jpg",
   "static/media/or_sunset2.jpg": "/static/media/or_sunset2.593c78f4.jpg",
-  "static/media/App.css": "/static/media/8-bit-pusab.0288f1e7.ttf",
+  "static/media/App.css": "/static/media/ChicagoFLF.d7982e4c.ttf",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
   "static/css/1.7903bec2.chunk.css.map": "/static/css/1.7903bec2.chunk.css.map",
-  "static/css/main.24ef2ccd.chunk.css.map": "/static/css/main.24ef2ccd.chunk.css.map",
+  "static/css/main.9c41c1d2.chunk.css.map": "/static/css/main.9c41c1d2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.6f86a69590c1c4fa394f59fdc2c61191.js": "/precache-manifest.6f86a69590c1c4fa394f59fdc2c61191.js",
+  "precache-manifest.ded39e8ebf71ad168b0fe64adb4eccfd.js": "/precache-manifest.ded39e8ebf71ad168b0fe64adb4eccfd.js",
   "service-worker.js": "/service-worker.js"
 }
