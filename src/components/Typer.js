@@ -11,7 +11,7 @@ class Typer extends Component {
     }
   
     componentDidMount() {
-        setTimeout(this.handleType, 800);
+        setTimeout(this.handleType, 900);
     }
   
     handleType = () => {
