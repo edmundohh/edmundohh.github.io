@@ -24,7 +24,7 @@ class Profile extends Component {
 
 	render() {
 		return(
-			<div className="profile-page">
+			<div className="profile-page" id="profile">
 				<div className="profile-name">
 					<h1>Edmund Oh</h1>
 				</div>

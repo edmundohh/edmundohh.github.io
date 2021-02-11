@@ -1,0 +1,43 @@
+.bottom-container
+{
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: fit-content;
+  height: 60px;
+  background: rgb(210, 210, 210);
+}
+
+.bottom-menu-container
+{
+  
+  padding-left: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  list-style-type: none;
+
+}
+
+.bottom-menu-container ul
+{
+  padding: 0;
+  list-style-type: none;
+}
+
+.bottom-menu-item i
+{
+  color: rgb(0, 0, 0);
+  padding: 8px 8px;
+  background: rgb(210, 210, 210);
+  border-color: rgb(32, 32, 32);
+  border-width: 3px;
+  border-style: outset;
+  transition: 0.2s all ease;
+}
+
+.bottom-menu-item i:hover
+{
+  background-color: rgb(152, 152, 152);
+}
