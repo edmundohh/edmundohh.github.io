@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "3bd3db275a4cb4caa3d178de5ddd14b5",
-    "url": "/static/media/preview.3bd3db27.jpg"
+    "revision": "86752230e5b386b58f37bc3b82558651",
+    "url": "/static/media/preview.86752230.jpg"
   },
   {
     "revision": "b502a0354016a6f596fd89b58eb24b24",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/incognitoelf.31b770bd.png"
   },
   {
-    "revision": "2f998c2fe324d0f2cab493acb2815331",
+    "revision": "3cafefd4e9044aafd8da5f49b344be94",
     "url": "/index.html"
   }
 ];
