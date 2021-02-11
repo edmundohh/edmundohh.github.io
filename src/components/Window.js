@@ -13,13 +13,16 @@ class Window extends Component {
 		return(
     <div className="rectangle-outer">
       <div className="rectangle-top">
+        <div className="box-container-l">
+          <span className="box"></span>
+        </div>
         <div className="bar-container">
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-        <div className="box-container">
+        <div className="box-container-r">
           <span className="box"></span>
           <span className="box"></span>
         </div>

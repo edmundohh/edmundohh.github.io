@@ -17,7 +17,7 @@
 
 .about-header h1
 {
-  color: rgb(252, 142, 16);
+  color: rgba(34, 0, 170, 0.718);
   font-family: "Chicago";
   font-size: 32px;
 }
@@ -51,7 +51,7 @@
 
 .cat-highlight
 {
-  color:rgb(252, 142, 16);
+  color:rgba(34, 0, 170, 0.718);
 }
 
 .about-border
@@ -94,8 +94,8 @@
 
   .profile-photo img
   {
-    max-width: 130px;
-    max-height: 130px;
+    max-width: 125px;
+    max-height: 125px;
   }
 }
 
