@@ -1,12 +1,26 @@
-.profile
+.profile-page
 {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   width: 100%;
-  align-items: center;
-  background-size: cover;
+  height: 100%;
   background-position: center;
+}
+
+.rectangle
+{
+  background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95)), no-repeat center;
+}
+
+.profile-name h1
+{
+  margin-top: 40px;
+  margin-left: 5px;
+  font-size: 47px;
+  color: black;
+  font-weight: bold;
+  font-family: "Chicago";
 }
 
 .profile-photo
@@ -20,20 +34,18 @@
   max-height: 180px;
 }
 
-.profile-title h1
+.profile-description h1
 {
-  text-align: center;
   margin-top: 20px;
   width: 100%;
-  font-family: "Avenir Roman";
-  color:white;
-  font-size: 37px;
+  font-family: "Chicago";
+  color:rgb(0, 0, 0);
+  font-size: 22px;
   text-overflow: ellipsis;
 }
 
 #cursor {
-  border-left: .2em solid white;
-  animation: blink 0.9s steps(1) infinite;
+  border-left: .8em solid rgba(110, 110, 110, 0.676);
   padding-top: 7px;
 }
 
@@ -43,103 +55,16 @@
   }
 }
 
-.main-nav
+@media only screen and (max-width: 600px)
 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
-
-.main-nav ul
-{
-  padding: 0;
-}
-
-.nav-menu 
-{
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.home-nav-menu li a
-{
-  color: white;
-  text-decoration: none;
-  font-family: "Avenir Roman";
-  font-size: 19px;
-  margin: 5vw;
-  overflow: hidden;
-  transition: 0.5s all ease;
-}
-
-.home-nav-menu li a:hover
-{
-  color: rgb(85, 85, 85);
-}
-
-.nav-media
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 75px;
-  list-style-type: none;
-}
-
-.nav-media li a
-{
-  margin: 27px;
-  color: white;  
-}
-
-.nav-media li i:hover
-{
-  color: rgb(85, 85, 85);
-  transition: 0.5s all ease;
-}
-
-@media only screen and (min-height: 600px)
-{
-  .homepage
+  .profile-name h1
   {
-    height: 100vh;
+    font-size: 30px;
+  }
+
+  .profile-description h1
+  {
+    font-size: 18px;
   }
 }
 
-@media only screen and (max-width: 400px)
-{
-  .profile-photo
-  {
-    margin-top: 10vh;
-  }
-
-  .profile-photo img
-  {
-    max-width: 37vw;
-  }
-
-  .profile-title h1
-  {
-    margin-top: 10px;
-    font-size: 7vw;
-    margin-bottom: 8vh;
-  }
-
-  .home-nav-menu li a
-  {
-    margin: 5vw;
-    font-size: 4.5vw;
-  }
-
-  .nav-media li a
-  {
-    margin: 4vw;
-  }
-
-  .nav-media
-  {
-    margin-top: 21vh;
-  }
-}

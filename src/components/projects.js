@@ -26,13 +26,6 @@ const projects = [
 		demoLink: "https://devpost.com/software/helpinghand-a4swt1"
 	},
 	{
-		photo: IncognitoElfPhoto,
-		title: "Incogito Elf",
-		skills: ["Node.js", "MongoDB"],
-		description: "A Secret Santa app for users to create and join groups to organize a gift exchange.",
-		ghLink: "https://github.com/edmundohh/IncognitoElf"
-	},
-	{
 		photo: ubcSubletPhoto,
 		title: "ubcSublet",
 		skills: ["Node.js", "React.js", "Oracle"],
@@ -67,13 +60,14 @@ class Projects extends Component {
 
 	render() {
 		return(
-			<div className="projects-section">
+			<div className="projects-section" id="projects">
 				<div className="projects-header">
-					<h1>projects</h1>
+					<h1>Projects</h1>
 				</div>
 		    <ul className="projects-list">
 					<li>{this.renderItem()}</li>
 			 </ul>
+			 <div className="projects-border"></div>
 		</div>
 		);
 	}

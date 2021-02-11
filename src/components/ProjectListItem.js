@@ -21,11 +21,11 @@ function ProjectListItem({ photo, title, subtitle, skills, description, ghLink, 
         <p>{description}</p>
       </div>
       <div className="github-link">
-        <a href={ghLink}><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+        <a href={ghLink}>GitHub</a>
       </div>
       { demoLink
         ? <div className="demo-link">
-            <a href={demoLink}><i class="fa fa-laptop fa-4x" aria-hidden="true"></i></a>
+            <a href={demoLink}>Demo</a>
           </div>
         : null
       }

@@ -8,16 +8,15 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient(rgba(0,0,0,0.95), rgba(0,0,0,0.95));
+  background: rgb(219, 219, 219);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 128, 0);
-  border-radius: 0px;
+  background-color: rgb(142, 142, 142);
 }
 
 code {

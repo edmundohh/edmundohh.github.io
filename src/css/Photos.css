@@ -1,10 +1,10 @@
 .photos-header h1
 {
-    color: white;
-    padding-top: 10px;
-    text-align: center;
-    font-family: "Avenir Book";
-    font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding-top: 10px;
+  margin-left: 10px;
+  font-family: "Chicago";
+  font-size: 30px;
 }
 
 .photos img
@@ -28,20 +28,20 @@
   margin-right: auto;
 }
 
-.box
+.photo-box
 {
   position: relative;
   padding-top: 0;
   margin-top: 10px;
 }
 
-.box:hover img
+.photo-box:hover img
 {
   opacity: 0.3;
   transition: 0.5s all ease;
 }
 
-.box:hover .detail
+.photo-box:hover .detail
 {
   opacity: 0;
 }
@@ -53,10 +53,11 @@
 .photos-link
 {
   margin-top: 78px;
-  font-family: "Avenir Roman";
+  font-family: "Chicago";
   font-size: 14px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
+  margin-bottom: 78px;
 }
 
 @media screen and (max-width: 900px) {

@@ -4,57 +4,45 @@ import ProfilePhoto from '../images/profilephoto.png';
 import Background from '../images/profilebackground.jpg';
 import Typer from './Typer';
 import '../css/Profile.css';
+import NavMenu from './NavMenu';
 
 const typedMessages = [
-    'edmund oh'
-  ];
-
-const preloadImages = ['../images/profilebackground.jpg', '../images/profilephoto.png'];
+		'Hello! Welcome to my website.',
+		'Feel free to navigate to one of the following sections.'
+	];
 
 class Profile extends Component {
-	componentDidMount() {
-		preloadImages.forEach((image) => {
-			new Image().src = image;
-		});
+	constructor(props) {
+		super(props);
+		this.state = { menuVisible: false }
+		this.updateMenuVisible = this.updateMenuVisible
+	}
+	
+	updateMenuVisible = () => {
+		this.setState({ menuVisible: true })
 	}
 
 	render() {
 		return(
-			<div className="homepage">
-			<div className="profile" style={{
-					backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${Background})`
-				}}>
-					<div className="profile-photo">
-						<img src={ ProfilePhoto }></img>
-					</div>
-					<div className="profile-title">
-						{ this.renderTypedMessages() }
-					</div>	
+			<div className="profile-page">
+				<div className="profile-name">
+					<h1>Edmund Oh</h1>
+				</div>
+				<div className="profile-description">
+			 		{ this.renderTypedMessages() }
+		 		</div>
+				<div className="main-nav">
+					{ this.state.menuVisible ? <NavMenu/> : null }
+				</div>
 			</div>
-			<div className="main-nav">
-			<ul className="home-nav-menu">
-			  <div className="nav-menu">
-				  <li><a href='#about'>about</a></li>
-				  <li><a href='#projects'>projects</a></li>
-				  <li><a href='#photos'>photos</a></li>
-			  </div>
-			</ul>
-			<ul>
-			  <div className="nav-media">
-					<li><a href="https://github.com/edmundohh"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/edmundoh/"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
-					<li><a href="mailto: 1edmundoh@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a></li>
-			  </div>
-			</ul>
-		  </div>
-		  </div>
 		);
 	}
 
 	renderTypedMessages() {
 		return (
 		  <Typer
-		  	dataText={ typedMessages }
+				dataText={ typedMessages }
+				updateMenuVisibility={ this.updateMenuVisible }
 		  />
 		);
 	  }

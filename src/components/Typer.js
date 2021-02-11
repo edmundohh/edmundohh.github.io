@@ -6,11 +6,12 @@ class Typer extends Component {
       text: '',
       isDeleting: false,
       loopNum: 0,
-      typingSpeed: 150
+      typingSpeed: 30,
+      cursorVisibility: true
     }
   
     componentDidMount() {
-        setTimeout(this.handleType, 1600);
+        setTimeout(this.handleType, 800);
     }
   
     handleType = () => {
@@ -21,14 +22,16 @@ class Typer extends Component {
 
       this.setState({
         text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
-        typingSpeed: isDeleting ? 30 : 150
+        typingSpeed: isDeleting ? 30 : 30
       });
   
       if (!isDeleting && text === fullText) {   
           if (loopNum == dataText.length - 1) {
-              return;
+            setTimeout(() => this.props.updateMenuVisibility(), 200);  
+            this.setState({ cursorVisibility: false });
+            return;
           }
-          setTimeout(() => this.setState({ isDeleting: true }), 500);   
+          setTimeout(() => this.setState({ isDeleting: true }), 500);  
       } else if (isDeleting && text === '') {
         this.setState({
           isDeleting: false,
@@ -41,8 +44,8 @@ class Typer extends Component {
     render() {    
       return (
         <h1>
-          <span>{ this.state.text }</span>
-          <span id="cursor"></span>
+          <span> $ { this.state.text }</span>
+          {this.state.cursorVisibility ? <span id="cursor"></span> : null}
         </h1>
       );
     }

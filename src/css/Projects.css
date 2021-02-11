@@ -1,14 +1,14 @@
 .projects-header h1
 {
-    color: white;
-    text-align: center;
-    font-family: "Avenir Book";
+    color: rgb(0, 0, 0);
+    font-family: "Chicago";
     font-size: 30px;
+    margin-left: 10px;
 }
 
 .projects-section
 {
-    margin-bottom: 24px;
+    margin-bottom: 60px;
 }
 
 .projects-section ul
@@ -18,15 +18,13 @@
 
 .project
 {
-    margin-top: 4px;
+    margin-bottom: 60px;
+    margin-top: 130px;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: rgb(39, 39, 39);
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .project-photo img
@@ -43,7 +41,7 @@
 
 .projects-list h2
 {
-    font-family: "Avenir Medium";
+    font-family: "Chicago";
     font-size: 28px;
     color: rgb(252, 142, 16);
     text-align: center;
@@ -52,41 +50,41 @@
 
 .projects-list h3
 {
-    color: rgb(255, 255, 255);
+    color: rgb(98, 98, 98);
     font-size: 17px;
     text-align: center;
     font-style: oblique;
-    font-family: "Avenir Medium";
+    font-family: "Chicago";
 }
 
 .skills
 {
     margin-top: 0px;
     display: flex;
-    font-family: "Avenir Book";
+    font-family: "Chicago";
     flex-direction: row;
     justify-content: center;
 }
 
 .skills li
 {
-    color: rgb(170, 170, 170);
+    color: rgb(98, 98, 98);
     font-size: 14px;
     text-decoration: none;
-    border: 1px solid rgb(170, 170, 170);
-    border-radius: 13px;
-    padding: 7px 15px;
+    border: 1px solid rgb(98, 98, 98);
+    border-radius: 3px;
+    padding: 3px 10px;
     padding-bottom: 3px;
-    margin: 5px;
+    margin: 3px;
     display: flex;
 }
 
 .project-description
 {
     margin-top: 23px;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 40%;
-    font-family: "Avenir Book";
+    font-family: "Chicago";
     align-items: center;
     justify-content: center;
 }
@@ -101,18 +99,22 @@
 
 .github-link
 {
-    margin-top: 14px;
+    margin-top: 10px;
 }
 
 .github-link a
 {
-    color: white;
-    transition: 0.5s all ease;
+    color: rgb(71, 71, 71);
+    font-family: "Chicago";
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 20px;
+    transition: 0.2s all ease;
 }
 
 .github-link a:hover
 {
-    color: rgb(85, 85, 85);
+    background: rgb(212, 212, 212);
 }
 
 .demo-link
@@ -122,13 +124,28 @@
 
 .demo-link a
 {
-    color: white;
-    transition: 0.5s all ease;
+    color: rgb(71, 71, 71);
+    font-family: "Chicago";
+    text-decoration: underline;
+    font-style: oblique;
+    font-size: 20px;
+    transition: 0.2s all ease;
 }
 
 .demo-link a:hover
 {
-    color: rgb(85, 85, 85);
+    background: rgb(212, 212, 212);
+}
+
+.projects-border
+{
+  width: 85%;
+  border:none;
+  border-top: 3px dashed rgb(0, 0, 0);
+  margin-top: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 700px)
@@ -144,7 +161,7 @@
     }
 }
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 500px)
 {
     .skills
     {
@@ -153,15 +170,8 @@
         align-items: center;
     }
 
-    .skills li
+    .project
     {
-        color: rgb(170, 170, 170);
-        font-size: 4vw;
-        text-decoration: none;
-        border: 1px solid rgb(170, 170, 170);
-        border-radius: 9px;
-        padding: 3px 3px;
-        margin: 3px;
-        padding-bottom: 0;
+        margin-top: 70px;
     }
 }

@@ -13,42 +13,42 @@ class Photos extends Component {
 
 	render() {
 		return(
-			<div className="photos-section">
+			<div className="photos-section" id="photos">
 				<div className="photos-header">
-					<h1>photos</h1>
+					<h1>Photos</h1>
 				</div>
 				<div className="photos">
 					<div className="column">
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image1 }></img>
 							{/* </Link> */}
 						</div>
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/rainier"> */}
 								<img src={ image2 }></img>
 							{/* </Link> */}
 						</div> 
 					</div>
 					<div className="column">
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image3 }></img>
 							{/* </Link>  */}
 						</div>
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image4 }></img>
 							{/* </Link>  */}
 						</div>
 					</div>
 					<div className="column">
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/oregon"> */}
 								<img src={ image5 }></img>	
 							{/* </Link> */}
 						</div>
-						<div className="box">
+						<div className="photo-box">
 							{/* <Link to="/album/goldenears"> */}
 								<img src={ image6 }></img>	
 							{/* </Link> */}
@@ -56,7 +56,7 @@ class Photos extends Component {
 					</div>  	  		  
 				</div>
 				<div className="photos-link">
-					photo section in progress...
+					Photo section under construction...
 				</div>
 			</div>
 		);

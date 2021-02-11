@@ -1,0 +1,46 @@
+.main-nav
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-nav ul
+{
+  padding: 0;
+}
+
+.nav-menu 
+{
+  list-style-type: none;
+  display: flex;
+  width: min-content;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-nav-menu .nav-item
+{
+  color: rgb(0, 0, 0);
+  font-family: "Chicago";
+  text-decoration: underline;
+  font-size: 22px;
+  margin-top: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.2s all ease;
+}
+
+.home-nav-menu .nav-item:hover
+{
+  background-color: rgb(212, 212, 212);
+}
+
+@media only screen and (max-width: 600px)
+{
+  .home-nav-menu .nav-item
+  {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+}
