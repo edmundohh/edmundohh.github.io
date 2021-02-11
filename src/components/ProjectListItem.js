@@ -25,7 +25,7 @@ function ProjectListItem({ photo, title, subtitle, skills, description, ghLink, 
       </div>
       { demoLink
         ? <div className="demo-link">
-            <a href={demoLink}>Demo</a>
+            <a href={demoLink}>DevPost</a>
           </div>
         : null
       }

@@ -17,8 +17,10 @@
 
 .about-header h1
 {
-  color: rgb(36, 94, 253);
+  color: rgb(21, 77, 231);
+  font-style: oblique;
   font-family: "Chicago";
+  text-shadow: 2px 2px rgb(139, 139, 139);
   font-size: 32px;
 }
 
@@ -41,6 +43,7 @@
   color: rgb(0, 0, 0);
   font-style: italic;
   font-family: "Chicago";
+  text-shadow: 2px 2px rgb(221, 221, 221);
   transition: 0.2s all ease;
 }
 
@@ -51,7 +54,7 @@
 
 .cat-highlight
 {
-  color:rgb(36, 94, 253);
+  color:rgb(21, 77, 231);
 }
 
 .about-border

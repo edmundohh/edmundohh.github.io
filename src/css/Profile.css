@@ -18,7 +18,9 @@
   margin-top: 40px;
   margin-left: 5px;
   font-size: 47px;
-  color: black;
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px rgb(180, 180, 180);
   font-weight: bold;
   font-family: "Chicago";
 }
@@ -49,7 +51,8 @@
 {
   .profile-name h1
   {
-    font-size: 25px;
+    font-size: 27px;
+    text-shadow: 2px 2px rgb(164, 164, 164);
   }
 
   .profile-description h1

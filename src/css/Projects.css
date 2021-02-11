@@ -3,6 +3,8 @@
     color: rgb(0, 0, 0);
     font-family: "Chicago";
     font-weight: bold;
+    text-shadow: 2px 2px rgb(180, 180, 180);
+    font-style: oblique;
     font-size: 30px;
     margin-left: 10px;
 }
@@ -44,7 +46,8 @@
 {
     font-family: "Chicago";
     font-size: 28px;
-    color: rgb(36, 94, 253);
+    color: rgb(21, 77, 231);
+    text-shadow: 2px 2px rgb(139, 139, 139);
     text-align: center;
     margin: 8px;
 }

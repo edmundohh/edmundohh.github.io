@@ -23,6 +23,7 @@
 {
   color: rgb(0, 0, 0);
   font-family: "Chicago";
+  text-shadow: 1px 1px rgb(193, 193, 193);
   text-decoration: underline;
   font-size: 22px;
   margin-top: 40px;
