@@ -26,6 +26,7 @@
 .profile-description h1
 {
   margin-top: 20px;
+  margin-bottom: 0px;
   width: 100%;
   font-family: "Chicago";
   color:rgb(0, 0, 0);

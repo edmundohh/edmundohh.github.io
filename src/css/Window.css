@@ -9,6 +9,7 @@
   padding-left: 7px;
   padding-right: 7px;
   min-width: 250px;
+  min-height: 350px;
   width: 72vw;
   height: 980px;
   border-radius: 4px;
@@ -77,11 +78,11 @@
   flex-grow: 1;
 }
 
-@media only screen and (min-height: 900px)
+@media only screen and (max-height: 1200px)
 {
   .rectangle-outer
   {
-    height: 70vh;
+    height: 69vh;
   }
 }
 
@@ -91,7 +92,7 @@
   {
     width: 90vw;
     margin-top: 7vh;
-    height: 69vh;
+    height: 64vh;
   }
 }
 

@@ -22,12 +22,12 @@ class Typer extends Component {
 
       this.setState({
         text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
-        typingSpeed: isDeleting ? 30 : 30
+        typingSpeed: isDeleting ? 20 : 40
       });
   
       if (!isDeleting && text === fullText) {   
           if (loopNum == dataText.length - 1) {
-            setTimeout(() => this.props.updateMenuVisibility(), 200);  
+            setTimeout(() => this.props.updateMenuVisibility(), 300);  
             this.setState({ cursorVisibility: false });
             return;
           }

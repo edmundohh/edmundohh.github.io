@@ -8,7 +8,7 @@ import NavMenu from './NavMenu';
 
 const typedMessages = [
 		'Hello! Welcome to my website.',
-		'Feel free to navigate to one of the following sections.'
+		'open navigation menu'
 	];
 
 class Profile extends Component {
