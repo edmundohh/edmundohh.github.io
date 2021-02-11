@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.a585275a.chunk.css",
-  "main.js": "/static/js/main.cdbc17c6.chunk.js",
-  "main.js.map": "/static/js/main.cdbc17c6.chunk.js.map",
+  "main.css": "/static/css/main.50d35379.chunk.css",
+  "main.js": "/static/js/main.7baa0927.chunk.js",
+  "main.js.map": "/static/js/main.7baa0927.chunk.js.map",
   "static/css/1.7903bec2.chunk.css": "/static/css/1.7903bec2.chunk.css",
   "static/js/1.1596421d.chunk.js": "/static/js/1.1596421d.chunk.js",
   "static/js/1.1596421d.chunk.js.map": "/static/js/1.1596421d.chunk.js.map",
@@ -21,9 +21,9 @@
   "static/media/App.css": "/static/media/ChicagoFLF.d7982e4c.ttf",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
-  "static/css/main.a585275a.chunk.css.map": "/static/css/main.a585275a.chunk.css.map",
+  "static/css/main.50d35379.chunk.css.map": "/static/css/main.50d35379.chunk.css.map",
   "static/css/1.7903bec2.chunk.css.map": "/static/css/1.7903bec2.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.1eb3cbcfd4465ea5ed13eea7f340f049.js": "/precache-manifest.1eb3cbcfd4465ea5ed13eea7f340f049.js",
+  "precache-manifest.4e353a326b946a6744df34c0e8c62296.js": "/precache-manifest.4e353a326b946a6744df34c0e8c62296.js",
   "service-worker.js": "/service-worker.js"
 }

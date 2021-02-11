@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cdbc17c6c6b13a7c8eb7",
-    "url": "/static/css/main.a585275a.chunk.css"
+    "revision": "7baa0927f5314084dd36",
+    "url": "/static/css/main.50d35379.chunk.css"
   },
   {
-    "revision": "cdbc17c6c6b13a7c8eb7",
-    "url": "/static/js/main.cdbc17c6.chunk.js"
+    "revision": "7baa0927f5314084dd36",
+    "url": "/static/js/main.7baa0927.chunk.js"
   },
   {
     "revision": "1596421dac84c9c32672",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf"
   },
   {
-    "revision": "0288f1e7bb41723f1e583496a7050130",
-    "url": "/static/media/8-bit-pusab.0288f1e7.ttf"
-  },
-  {
     "revision": "4f995fa49446998983e05df9994dc96c",
     "url": "/static/media/AvenirLTStd-Medium.4f995fa4.otf"
+  },
+  {
+    "revision": "0288f1e7bb41723f1e583496a7050130",
+    "url": "/static/media/8-bit-pusab.0288f1e7.ttf"
   },
   {
     "revision": "d7982e4c4d683e1fe63fdefd5100f1e3",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/incognitoelf.31b770bd.png"
   },
   {
-    "revision": "ddd1c93eb5e937008895344c1044f927",
+    "revision": "3343cdfb5a8b7d218d722ea041f4f6c4",
     "url": "/index.html"
   }
 ];
