@@ -21,7 +21,7 @@ class About extends Component {
 
 							You can find the source code for my projects including this website on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
-							<span class="cat-highlight">Interests:</span> Hackathons, Photography, Soccer, Hockey, Cooking<br/>
+							<span class="cat-highlight">Interests:</span> Hackathons, Soccer, Photography, Hockey, Cooking<br/>
 							<span class="cat-highlight">Favourite Artists:</span> John Mayer, Kendrick Lamar, Hyukoh<br/>
 					</p>
 				</div>
