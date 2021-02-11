@@ -17,7 +17,7 @@
 
 .about-header h1
 {
-  color: rgba(34, 0, 170, 0.718);
+  color: rgb(36, 94, 253);
   font-family: "Chicago";
   font-size: 32px;
 }
@@ -51,7 +51,7 @@
 
 .cat-highlight
 {
-  color:rgba(34, 0, 170, 0.718);
+  color:rgb(36, 94, 253);
 }
 
 .about-border
