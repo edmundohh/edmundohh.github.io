@@ -63,6 +63,17 @@
   display: block;
 }
 
+.profile-photo
+{
+  margin-top: 87px;
+}
+
+.profile-photo img
+{
+  max-width: 180px;
+  max-height: 180px;
+}
+
 @media only screen and (max-width: 700px)
 {
   .about-header
@@ -79,6 +90,12 @@
   .description p
   {
     font-size: 4vw;
+  }
+
+  .profile-photo img
+  {
+    max-width: 130px;
+    max-height: 130px;
   }
 }
 
