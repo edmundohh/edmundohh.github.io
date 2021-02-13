@@ -34,7 +34,7 @@
   color: rgb(0, 0, 0);
   padding: 8px 8px;
   background: rgb(219, 219, 219);
-  border-color: rgb(175, 175, 175);
+  border-color: rgb(168, 168, 168);
   border-width: 3px;
   border-style: outset;
   transition: 0.2s all ease;
@@ -52,7 +52,7 @@
     color: rgb(0, 0, 0);
     padding: 4px 4px;
     background: rgb(210, 210, 210);
-    border-color: rgb(187, 187, 187);
+    border-color: rgb(168, 168, 168);
     border-width: 3px;
     border-style: outset;
     transition: 0.2s all ease;
