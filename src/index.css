@@ -12,7 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(151, 151, 151);
+  background: rgb(170, 170, 170);
   display: block;
   border-color: rgb(0, 0, 0);
   border-width: 1px;

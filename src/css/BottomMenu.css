@@ -35,7 +35,7 @@
   padding: 8px 8px;
   background: rgb(219, 219, 219);
   border-color: rgb(168, 168, 168);
-  border-width: 3px;
+  border-width: 4px;
   border-style: outset;
   transition: 0.2s all ease;
 }
