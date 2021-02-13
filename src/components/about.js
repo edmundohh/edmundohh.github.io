@@ -21,7 +21,7 @@ class About extends Component {
 
 							You can find the source code for my projects including this website on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
-							In my spare time, I enjoy photography, watching soccer/hockey, and cooking (occasionally).<br/>
+							In my spare time, I enjoy photography, and watching soccer/hockey.<br/>
 					</p>
 				</div>
 				<div className="about-border"></div>

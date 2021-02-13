@@ -22,7 +22,7 @@ class Typer extends Component {
 
       this.setState({
         text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
-        typingSpeed: isDeleting ? 20 : 40
+        typingSpeed: isDeleting ? 20 : 30
       });
   
       if (!isDeleting && text === fullText) {   

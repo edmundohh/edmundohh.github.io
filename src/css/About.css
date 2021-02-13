@@ -18,7 +18,7 @@
 .about-header h1
 {
   color: rgb(21, 77, 231);
-  font-style: oblique;
+  font-style: italic;
   font-family: "Chicago";
   text-shadow: 2px 2px rgb(175, 175, 175);
   font-size: 32px;
@@ -42,8 +42,9 @@
 {
   color: rgb(0, 0, 0);
   font-style: italic;
+  text-decoration: none;
   font-family: "Chicago";
-  text-shadow: 2px 2px rgb(221, 221, 221);
+  text-shadow: 3px 3px rgb(221, 221, 221);
   transition: 0.2s all ease;
 }
 
