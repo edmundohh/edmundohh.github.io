@@ -19,7 +19,7 @@ class About extends Component {
 							anticipating to graduate in May 2022.<br/><br/>
 							Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
-							You can find the source code for my projects including this website on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
+							You can find the source code for my projects and more, on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
 							In my spare time, I enjoy photography, and watching soccer/hockey.<br/>
 					</p>
