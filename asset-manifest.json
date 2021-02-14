@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.989cb6a7.chunk.css",
-  "main.js": "/static/js/main.8cf585e7.chunk.js",
-  "main.js.map": "/static/js/main.8cf585e7.chunk.js.map",
+  "main.css": "/static/css/main.92db01a4.chunk.css",
+  "main.js": "/static/js/main.f9bc0336.chunk.js",
+  "main.js.map": "/static/js/main.f9bc0336.chunk.js.map",
   "static/css/1.47bb7741.chunk.css": "/static/css/1.47bb7741.chunk.css",
   "static/js/1.5c6e2cc2.chunk.js": "/static/js/1.5c6e2cc2.chunk.js",
   "static/js/1.5c6e2cc2.chunk.js.map": "/static/js/1.5c6e2cc2.chunk.js.map",
@@ -18,12 +18,12 @@
   "static/media/seadoge.jpg": "/static/media/seadoge.00b73835.jpg",
   "static/media/hawaii.jpg": "/static/media/hawaii.e081acea.jpg",
   "static/media/or_sunset2.jpg": "/static/media/or_sunset2.593c78f4.jpg",
-  "static/media/App.css": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf",
+  "static/media/App.css": "/static/media/ChicagoFLF.d7982e4c.ttf",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
-  "static/css/main.989cb6a7.chunk.css.map": "/static/css/main.989cb6a7.chunk.css.map",
+  "static/css/main.92db01a4.chunk.css.map": "/static/css/main.92db01a4.chunk.css.map",
   "static/css/1.47bb7741.chunk.css.map": "/static/css/1.47bb7741.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e2ec2acf481d451d07d7b8d23b2f8526.js": "/precache-manifest.e2ec2acf481d451d07d7b8d23b2f8526.js",
+  "precache-manifest.5e2937ff05a81724712ba09ebf664f09.js": "/precache-manifest.5e2937ff05a81724712ba09ebf664f09.js",
   "service-worker.js": "/service-worker.js"
 }
