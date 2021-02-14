@@ -1,3 +1,4 @@
-Created with React.js
+### MacOS8-inspired portfolio website
+https://edmundoh.dev
 
-My webpage can be viewed at https://edmundoh.dev
+Created with React.js
