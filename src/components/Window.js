@@ -4,8 +4,9 @@ import Profile from './Profile';
 import About from './About';
 import Projects from './Projects';
 import Photos from './Photos';
+import Footer from './Footer';
+
 import '../css/Window.css';
-import NavMenu from './NavMenu';
 
 class Window extends Component {
 
@@ -32,6 +33,7 @@ class Window extends Component {
         <About/>
         <Projects/>
         <Photos/>
+        <Footer/>
       </div>
     </div>
 		);
