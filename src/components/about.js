@@ -15,9 +15,10 @@ class About extends Component {
 				</div>			    	
 				<div className="description">
 					<p> 
-							My name is Edmund and I'm currently an undergraduate Computer Science student at the <a href="https://www.ubc.ca/">University of British Columbia</a>,
+							My name is Edmund and I am an undergraduate Computer Science student at the <a href="https://www.ubc.ca/">University of British Columbia</a>,
 							anticipating to graduate in May 2022.<br/><br/>
-							Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
+							
+							I am currently working as a Software QA Engineer Intern at <a href="https://ttt.studio/">TTT Studios</a>.<br/>Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
 
 							You can find the source code for my projects and more, on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
