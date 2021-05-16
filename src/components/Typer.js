@@ -6,7 +6,7 @@ class Typer extends Component {
       text: '',
       isDeleting: false,
       loopNum: 0,
-      typingSpeed: 30,
+      typingSpeed: 20,
       cursorVisibility: true
     }
   
@@ -22,7 +22,7 @@ class Typer extends Component {
 
       this.setState({
         text: isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1),
-        typingSpeed: isDeleting ? 20 : 30
+        typingSpeed: isDeleting ? 15 : 20
       });
   
       if (!isDeleting && text === fullText) {   
