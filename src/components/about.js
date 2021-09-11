@@ -18,9 +18,9 @@ class About extends Component {
 							My name is Edmund and I am a 4th year Computer Science student at the <a href="https://www.ubc.ca/">University of British Columbia</a>,
 							anticipating to graduate in May 2022.<br/><br/>
 							
-							I am currently working as a Software QA Engineer Intern at <a href="https://ttt.studio/">TTT Studios</a>.<br/>Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/><br/>
+							Currently, I am a returning Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/>Previously, I worked as a Software QA Engineer Intern at <a href="https://ttt.studio/">TTT Studios</a>.<br/><br/>
 
-							You can find the source code for my projects and more, on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
+							You can find the source code for this website and other projects on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
 							In my spare time, I enjoy photography, and watching soccer/hockey.<br/>
 					</p>
