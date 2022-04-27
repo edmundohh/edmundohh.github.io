@@ -16,9 +16,9 @@ class About extends Component {
 				<div className="description">
 					<p> 
 							My name is Edmund and I am a 4th year Computer Science student at the <a href="https://www.ubc.ca/">University of British Columbia</a>,
-							anticipating to graduate in May 2022.<br/><br/>
+							anticipating to graduate in December 2022.<br/><br/>
 							
-							Currently, I am a returning Agile Developer Intern at <a href="https://www.sap.com/">SAP</a>.<br/>Previously, I worked as a Software QA Engineer Intern at <a href="https://ttt.studio/">TTT Studios</a>.<br/><br/>
+							Previously, I worked as an Agile Developer Intern at <a href="https://www.sap.com/">SAP</a> and as a Software QA Engineer Intern at <a href="https://ttt.studio/">TTT Studios</a>.<br/><br/>
 
 							You can find the source code for this website and other projects on my <a href="https://github.com/edmundohh">GitHub</a>. Also check out some of my photos below in the photos section.<br/><br/>
 
