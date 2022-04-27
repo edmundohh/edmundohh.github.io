@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.60ab612b.chunk.css",
-  "main.js": "/static/js/main.3b201041.chunk.js",
-  "main.js.map": "/static/js/main.3b201041.chunk.js.map",
+  "main.js": "/static/js/main.e7f1ce67.chunk.js",
+  "main.js.map": "/static/js/main.e7f1ce67.chunk.js.map",
   "static/css/1.134832f8.chunk.css": "/static/css/1.134832f8.chunk.css",
   "static/js/1.fcbd07fa.chunk.js": "/static/js/1.fcbd07fa.chunk.js",
   "static/js/1.fcbd07fa.chunk.js.map": "/static/js/1.fcbd07fa.chunk.js.map",
@@ -18,12 +18,12 @@
   "static/media/seadoge.jpg": "/static/media/seadoge.00b73835.jpg",
   "static/media/hawaii.jpg": "/static/media/hawaii.e081acea.jpg",
   "static/media/or_sunset2.jpg": "/static/media/or_sunset2.593c78f4.jpg",
-  "static/media/App.css": "/static/media/8-bit-pusab.0288f1e7.ttf",
+  "static/media/App.css": "/static/media/AvenirLTStd-Medium.4f995fa4.otf",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
   "static/css/main.60ab612b.chunk.css.map": "/static/css/main.60ab612b.chunk.css.map",
   "static/css/1.134832f8.chunk.css.map": "/static/css/1.134832f8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e99daceae39f28a7e7e4940c23abfb57.js": "/precache-manifest.e99daceae39f28a7e7e4940c23abfb57.js",
+  "precache-manifest.e006e60ac8e2f253b1bdc69fc8687d33.js": "/precache-manifest.e006e60ac8e2f253b1bdc69fc8687d33.js",
   "service-worker.js": "/service-worker.js"
 }
