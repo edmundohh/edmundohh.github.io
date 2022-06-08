@@ -10,10 +10,10 @@ var page;
 const hawaii = [
 	{ src: 'https://www.dropbox.com/s/wak389tme7eaviw/DSC_0061.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/l5u46agbly8nuxa/DSC_0633.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/xm5trhosnmf4i18/DSC_0194.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/xm5trhosnmf4i18/DSC_0194.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/pl7a4i4dhed8vo0/DSC_0552.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/jbukzorqfg04gv7/DSC_0549.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/q4mvy47aw7sypm4/DSC_0673.jpg?raw=1', width: 5, height: 3 },
+  { src: 'https://www.dropbox.com/s/jbukzorqfg04gv7/DSC_0549.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/q4mvy47aw7sypm4/DSC_0673.jpg?raw=1', width: 5, height: 3 },
 	{ src: 'https://www.dropbox.com/s/z47ftjyx1amqy2s/DSC_0288.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/qeuq0fb6aq6ra4c/DSC_0418.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/qb6gl6l31g4losq/DSC_0130.jpg?raw=1', width: 2, height: 3 },
@@ -87,29 +87,29 @@ const cap = [
 const chilliwacksunflower = [
 	{ src: 'https://www.dropbox.com/s/8nj14wq6cgc9eyl/DSC_0290.jpg?raw=1', width: 2, height: 2 },
 	{ src: 'https://www.dropbox.com/s/gdjgjuixa0wfzs3/DSC_0289.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/wfn8dhxa42rgvuq/DSC_0311.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/by4use78cwwh4fj/DSC_0370.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/lvzcdl14noz5ogu/DSC_0409.jpg?raw=1', width: 4, height: 3 },
-    { src: 'https://www.dropbox.com/s/hn348tsdnj6amsm/DSC_0397.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/wfn8dhxa42rgvuq/DSC_0311.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/by4use78cwwh4fj/DSC_0370.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/lvzcdl14noz5ogu/DSC_0409.jpg?raw=1', width: 4, height: 3 },
+  { src: 'https://www.dropbox.com/s/hn348tsdnj6amsm/DSC_0397.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/ukf0vlifew149jf/DSC_0410.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/7f4uaygjf2kmfm7/DSC_0443.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/yk5q5198da4cb0s/DSC_0483.jpg?raw=1', width: 2, height: 3 }	  
 ];
 
 const rainier = [
-  	{ src: 'https://www.dropbox.com/s/aac2m2gdlh37evc/DSC_0613.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/aac2m2gdlh37evc/DSC_0613.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/m5xsuqkelv7l97r/DSC_0578.jpg?raw=1', width: 3, height: 3 },
 	{ src: 'https://www.dropbox.com/s/fztjelo1pm4jwv1/DSC_0638.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/nw6rgijii3m1p4p/DSC_0582.jpg?raw=1', width: 6, height: 5 },
 ];
 
 const dc =[
-    { src: 'https://www.dropbox.com/s/kzspua3ch21gg7j/DSC_3488.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/j26hwsy3hudibeo/DSC_3724.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/nwb0vc5infkguql/DSC_3782.jpg?raw=1', width: 2, height: 3 },
+	{ src: 'https://www.dropbox.com/s/kzspua3ch21gg7j/DSC_3488.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/j26hwsy3hudibeo/DSC_3724.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/nwb0vc5infkguql/DSC_3782.jpg?raw=1', width: 2, height: 3 },
 	{ src: 'https://www.dropbox.com/s/pajzx7ohnk2f5ik/DSC_3538.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/g4ywsg028ya7iab/DSC_3728.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/vmtmc5519bpc0v0/DSC_3799.jpg?raw=1', width: 3, height: 3 },
+  { src: 'https://www.dropbox.com/s/g4ywsg028ya7iab/DSC_3728.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/vmtmc5519bpc0v0/DSC_3799.jpg?raw=1', width: 3, height: 3 },
 	{ src: 'https://www.dropbox.com/s/rwcj3yumb0xplo6/DSC_3804.jpg?raw=1', width: 2, height: 3 }
 ];
 
@@ -117,10 +117,10 @@ const joffre = [
 	{ src: 'https://www.dropbox.com/s/mfjvcrp5ejvslzw/DSC_0193.jpg?raw=1', width: 6, height: 5 },
 	{ src: 'https://www.dropbox.com/s/v2mergusry07yq5/DSC_1054.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/v9c0nwx3pqk969y/DSC_8421.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/p3aj7nhwyuvwr5u/DSC_1080.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/kxbyvlx4nqfwyfg/DSC_8638.jpg?raw=1', width: 3, height: 2 },
-   	{ src: 'https://www.dropbox.com/s/fjo7ygj82giddc6/DSC_8392.jpg?raw=1', width: 3, height: 3 },
-   	{ src: 'https://www.dropbox.com/s/kpxv4qavdpp9o3g/IMG_2903.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/p3aj7nhwyuvwr5u/DSC_1080.jpg?raw=1', width: 2, height: 3 },
+  { src: 'https://www.dropbox.com/s/kxbyvlx4nqfwyfg/DSC_8638.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/fjo7ygj82giddc6/DSC_8392.jpg?raw=1', width: 3, height: 3 },
+  { src: 'https://www.dropbox.com/s/kpxv4qavdpp9o3g/IMG_2903.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/slzsoo0o5jchye8/DSC_8388.jpg?raw=1', width: 3, height: 2 }
 ];
 
@@ -159,21 +159,21 @@ const niagara = [
 	{ src: 'https://www.dropbox.com/s/85r10c7xxfnz6qn/DSC_4067.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/w0y2lpkmnqq9yhr/DSC_3937.jpg?raw=1', width: 3, height: 3 },
 	{ src: 'https://www.dropbox.com/s/nzu7xs8n448dxji/DSC_3954.jpg?raw=1', width: 2, height: 3 },
-    { src: 'https://www.dropbox.com/s/bc68n09xe9a8ly9/DSC_4065.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/tumnvbt4jvclmor/DSC_4284.jpg?raw=1', width: 4, height: 3 },
-    { src: 'https://www.dropbox.com/s/fct3126tlbo3saz/DSC_4289.jpg?raw=1', width: 3, height: 2 },
-   	{ src: 'https://www.dropbox.com/s/45ed7iz9d2ty7mh/DSC_4256.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/bc68n09xe9a8ly9/DSC_4065.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/tumnvbt4jvclmor/DSC_4284.jpg?raw=1', width: 4, height: 3 },
+  { src: 'https://www.dropbox.com/s/fct3126tlbo3saz/DSC_4289.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/45ed7iz9d2ty7mh/DSC_4256.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/7d0j7kowt1g9zyi/DSC_3991.jpg?raw=1', width: 3, height: 2 }
 ];
 
 const alberta = [
-    { src: 'https://www.dropbox.com/s/ddupl6a3l0stc7w/DSC_9912.jpg?raw=1', width: 5, height: 4 },
-        { src: 'https://www.dropbox.com/s/60ed80agg85xg5a/DSC_9921.jpg?raw=1', width: 3, height: 2 },
+	{ src: 'https://www.dropbox.com/s/ddupl6a3l0stc7w/DSC_9912.jpg?raw=1', width: 5, height: 4 },
+  { src: 'https://www.dropbox.com/s/60ed80agg85xg5a/DSC_9921.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/01nu84cxnnp63rq/DSC_9875.jpg?raw=1', width: 3, height: 2 },
 	{ src: 'https://www.dropbox.com/s/an1i1bz9zbqvvin/DSC_9880.jpg?raw=1', width: 3, height: 2 },
-    { src: 'https://www.dropbox.com/s/mwol1um48tbb7p6/DSC_9814.jpg?raw=1', width: 9, height: 8 },
-   	{ src: 'https://www.dropbox.com/s/8pgis7bec7ne7pk/DSC_9931.jpg?raw=1', width: 3, height: 2 },
-   	{ src: 'https://www.dropbox.com/s/gr4yzydpbc8xo44/DSC_9948.jpg?raw=1', width: 6, height: 5 }
+  { src: 'https://www.dropbox.com/s/mwol1um48tbb7p6/DSC_9814.jpg?raw=1', width: 9, height: 8 },
+  { src: 'https://www.dropbox.com/s/8pgis7bec7ne7pk/DSC_9931.jpg?raw=1', width: 3, height: 2 },
+  { src: 'https://www.dropbox.com/s/gr4yzydpbc8xo44/DSC_9948.jpg?raw=1', width: 6, height: 5 }
 ];
 
 
