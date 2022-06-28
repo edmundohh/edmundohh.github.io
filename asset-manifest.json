@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.60ab612b.chunk.css",
-  "main.js": "/static/js/main.0cc3e7df.chunk.js",
-  "main.js.map": "/static/js/main.0cc3e7df.chunk.js.map",
+  "main.css": "/static/css/main.fcdf2ac8.chunk.css",
+  "main.js": "/static/js/main.476039c1.chunk.js",
+  "main.js.map": "/static/js/main.476039c1.chunk.js.map",
   "static/css/1.134832f8.chunk.css": "/static/css/1.134832f8.chunk.css",
   "static/js/1.fcbd07fa.chunk.js": "/static/js/1.fcbd07fa.chunk.js",
   "static/js/1.fcbd07fa.chunk.js.map": "/static/js/1.fcbd07fa.chunk.js.map",
@@ -18,12 +18,12 @@
   "static/media/seadoge.jpg": "/static/media/seadoge.00b73835.jpg",
   "static/media/hawaii.jpg": "/static/media/hawaii.e081acea.jpg",
   "static/media/or_sunset2.jpg": "/static/media/or_sunset2.593c78f4.jpg",
-  "static/media/App.css": "/static/media/AvenirLTStd-Roman.b1d7c6e0.otf",
+  "static/media/App.css": "/static/media/AvenirLTStd-Book.ecb0c2ae.otf",
   "static/media/profilebackground.jpg": "/static/media/profilebackground.41138aea.jpg",
   "static/media/incognitoelf.png": "/static/media/incognitoelf.31b770bd.png",
   "static/css/1.134832f8.chunk.css.map": "/static/css/1.134832f8.chunk.css.map",
-  "static/css/main.60ab612b.chunk.css.map": "/static/css/main.60ab612b.chunk.css.map",
+  "static/css/main.fcdf2ac8.chunk.css.map": "/static/css/main.fcdf2ac8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.44167fb8062f0278c13fe80c700c69fb.js": "/precache-manifest.44167fb8062f0278c13fe80c700c69fb.js",
+  "precache-manifest.f9ecafa520f963fd92a97aa1d29d5fb7.js": "/precache-manifest.f9ecafa520f963fd92a97aa1d29d5fb7.js",
   "service-worker.js": "/service-worker.js"
 }
