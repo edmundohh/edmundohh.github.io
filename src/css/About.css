@@ -34,7 +34,7 @@
 .description p
 {
   font-size: 19px;
-  text-align: justify;
+  text-align: left;
   line-height: 1.4em;
 }
 
@@ -56,15 +56,6 @@
 .cat-highlight
 {
   color:rgb(21, 77, 231);
-}
-
-.about-border
-{
-  width: 85%;
-  border:none;
-  border-top: 3px dashed rgb(0, 0, 0);
-  margin: 40px 0;
-  display: block;
 }
 
 .profile-photo

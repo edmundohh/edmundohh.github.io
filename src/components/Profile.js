@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import ProfilePhoto from '../images/profilephoto.png';
-import Background from '../images/profilebackground.jpg';
 import Typer from './Typer';
 import '../css/Profile.css';
 import NavMenu from './NavMenu';

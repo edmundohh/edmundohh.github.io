@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../css/Projects.css';
 import ProjectListItem from './ProjectListItem';
 
-import IncognitoElfPhoto from '../images/projects/incognitoelf.png';
 import ubcSubletPhoto from '../images/projects/ubcsublet.png';
 import BoxBlasterPhoto from '../images/projects/boxblaster.png';
 import HelpingHandPhoto from '../images/projects/helpinghand.png';
@@ -67,7 +66,6 @@ class Projects extends Component {
 		    <ul className="projects-list">
 					<li>{this.renderItem()}</li>
 			 </ul>
-			 <div className="projects-border"></div>
 		</div>
 		);
 	}

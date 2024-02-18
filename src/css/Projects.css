@@ -87,7 +87,7 @@
 {
     margin-top: 23px;
     color: rgb(0, 0, 0);
-    width: 40%;
+    width: 50%;
     font-family: "Chicago";
     align-items: center;
     justify-content: center;
@@ -96,14 +96,14 @@
 .project-description p
 {
     font-size: 18px;
-    text-align: justify;
+    text-align: left;
     line-height: 1.3em;
     margin-bottom: 6px;
 }
 
 .github-link
 {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .github-link a
@@ -123,7 +123,7 @@
 
 .demo-link
 {
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 .demo-link a
@@ -139,17 +139,6 @@
 .demo-link a:hover
 {
     background: rgb(212, 212, 212);
-}
-
-.projects-border
-{
-  width: 85%;
-  border:none;
-  border-top: 3px dashed rgb(0, 0, 0);
-  margin-top: 0px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media only screen and (max-width: 700px)
