@@ -5,7 +5,7 @@
   "dependencies": {
     "animate.css": "^3.7.0",
     "flatlist-react": "^1.5.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^5.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-images": "^0.5.19",
